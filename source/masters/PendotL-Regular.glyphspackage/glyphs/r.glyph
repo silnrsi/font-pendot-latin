@@ -1,0 +1,27 @@
+{
+glyphname = r;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(870,660,l),
+(870,840,o),
+(780,960,o),
+(640,960,cs),
+(500,960,o),
+(358,845,o),
+(250,550,c)
+);
+},
+{
+ref = _c.stemL;
+}
+);
+width = 970;
+}
+);
+unicode = 114;
+}

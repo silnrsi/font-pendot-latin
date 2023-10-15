@@ -1,0 +1,24 @@
+{
+export = 0;
+glyphname = _c.stemRA;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(250,1600,l),
+(250,1500,o),
+(250,510,o),
+(250,410,cs),
+(250,230,o),
+(265,100,o),
+(290,0,cs)
+);
+}
+);
+width = 500;
+}
+);
+}

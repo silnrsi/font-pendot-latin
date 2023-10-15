@@ -1,0 +1,24 @@
+{
+export = 0;
+glyphname = _c.stemL;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(250,0,l),
+(250,100,o),
+(250,450,o),
+(250,550,cs),
+(250,730,o),
+(235,860,o),
+(210,960,cs)
+);
+}
+);
+width = 500;
+}
+);
+}
