@@ -3,7 +3,31 @@ glyphname = I;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+pos = (500,0);
+ref = _c.stemLA;
+},
+{
+closed = 0;
+nodes = (
+(250,0,l),
+(350,0,o),
+(1150,0,o),
+(1250,0,c)
+);
+},
+{
+closed = 0;
+nodes = (
+(250,1600,l),
+(350,1600,o),
+(1150,1600,o),
+(1250,1600,c)
+);
+}
+);
+width = 1500;
 }
 );
 unicode = 73;

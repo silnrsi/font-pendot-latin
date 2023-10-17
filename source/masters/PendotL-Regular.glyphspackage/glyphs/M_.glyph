@@ -3,7 +3,24 @@ glyphname = M;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = _c.stemLA;
+},
+{
+pos = (1360,0);
+ref = _c.stemLA;
+},
+{
+closed = 0;
+nodes = (
+(250,1600,l),
+(930,0,l),
+(1610,1604,l)
+);
+}
+);
+width = 1860;
 }
 );
 unicode = 77;

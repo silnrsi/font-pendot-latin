@@ -3,7 +3,23 @@ glyphname = X;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(180,1600,l),
+(1275,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(1245,1600,l),
+(150,0,l)
+);
+}
+);
+width = 1425;
 }
 );
 unicode = 88;

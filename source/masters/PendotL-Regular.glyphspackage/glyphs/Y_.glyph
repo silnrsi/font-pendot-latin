@@ -3,7 +3,26 @@ glyphname = Y;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(150,1600,l),
+(730,800,l),
+(1310,1600,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(730,0,l),
+(730,100,o),
+(730,695,o),
+(730,795,cs)
+);
+}
+);
+width = 1460;
 }
 );
 unicode = 89;

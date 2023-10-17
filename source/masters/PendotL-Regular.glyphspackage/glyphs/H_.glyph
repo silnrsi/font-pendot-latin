@@ -3,7 +3,25 @@ glyphname = H;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = _c.stemLA;
+},
+{
+pos = (1000,0);
+ref = _c.stemLA;
+},
+{
+closed = 0;
+nodes = (
+(250,820,l),
+(350,820,o),
+(1150,820,o),
+(1250,820,c)
+);
+}
+);
+width = 1500;
 }
 );
 unicode = 72;

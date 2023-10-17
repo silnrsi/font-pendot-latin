@@ -3,7 +3,19 @@ glyphname = Q;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+ref = O;
+},
+{
+closed = 0;
+nodes = (
+(820,470,l),
+(1320,-300,l)
+);
+}
+);
+width = 1500;
 }
 );
 unicode = 81;

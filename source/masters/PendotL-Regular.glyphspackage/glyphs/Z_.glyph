@@ -3,7 +3,18 @@ glyphname = Z;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(200,1600,l),
+(1235,1600,l),
+(170,0,l),
+(1265,0,l)
+);
+}
+);
+width = 1435;
 }
 );
 unicode = 90;

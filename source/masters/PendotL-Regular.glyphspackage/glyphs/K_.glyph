@@ -3,7 +3,20 @@ glyphname = K;
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1110,1600,l),
+(280,820,l),
+(1150,0,l)
+);
+},
+{
+ref = _c.stemLA;
+}
+);
+width = 1300;
 }
 );
 unicode = 75;
