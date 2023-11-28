@@ -1,0 +1,16 @@
+sources:
+ - masters/PendotL-Regular.glyphspackage
+
+recipe:
+  ../fonts/ttf/PendotLTestA-Dotted.ttf:
+    - source: masters/PendotL-Regular.glyphspackage
+    - operation: exec
+      exe: pendot
+      args: dot -o build/PendotL-Dotted.glyphs masters/PendotL-Regular.glyphspackage
+    - source: build/PendotL-Dotted.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildTTF
+    - operation: autohint
+    - operation: rename
+      name: Pendot Latin Test Dotted
+    - operation: fix
