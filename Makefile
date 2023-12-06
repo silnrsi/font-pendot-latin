@@ -48,7 +48,7 @@ images: venv build.stamp $(DRAWBOT_OUTPUT)
 	python3 $< --output $@
 
 clean:
-	rm -rf venv
+	rm -rf venv venv-test out fonts
 	find . -name "*.pyc" -delete
 
 update-project-template:
