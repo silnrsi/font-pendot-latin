@@ -1,5 +1,6 @@
 sources:
  - masters/PendotL-Regular.glyphspackage
+familyName: "Pendot Latin Test Dotted"
 
 recipe:
   ../fonts/ttf/PendotLTestA-Dotted.ttf:
