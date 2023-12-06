@@ -9,6 +9,17 @@ results/**
 buildlinux2/**
 bin/**
 
+# pendot-specific files
+.init.stamp
+build.stamp
+fonts/
+sources/.ninja_log
+sources/build.ninja
+venv/
+venv-test/
+out/
+
+
 # general backup files
 *~
 *.swp
