@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3227";
 .formatVersion = 3;
 date = "2023-10-13 15:17:30 +0000";
 familyName = "Pendot L Test A";
@@ -8,13 +8,13 @@ fontMaster = (
 id = m01;
 metricValues = (
 {
-pos = 1600;
+pos = 1700;
 },
 {
-pos = 1600;
+pos = 1700;
 },
 {
-pos = 960;
+pos = 1000;
 },
 {
 },
@@ -59,6 +59,28 @@ language = dflt;
 value = "Copyright (c) 2004-2023 SIL International (https://www.sil.org/)";
 }
 );
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Prototype font for writing education in the Latin script";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Victor Gaultney";
+}
+);
+},
+{
+key = designerURL;
+value = "https://software.sil.org/wstech/";
 },
 {
 key = licenses;
@@ -165,32 +187,6 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-key = trademarks;
-values = (
-{
-language = dflt;
-value = "Pendot is a trademark of SIL International.";
-}
-);
-},
-{
-key = vendorID;
-value = "SIL ";
-},
-{
-key = designers;
-values = (
-{
-language = dflt;
-value = "Victor Gaultney";
-}
-);
-},
-{
-key = designerURL;
-value = "https://software.sil.org/wstech/";
-},
-{
 key = manufacturers;
 values = (
 {
@@ -204,13 +200,17 @@ key = manufacturerURL;
 value = "https://software.sil.org/wstech/";
 },
 {
-key = descriptions;
+key = trademarks;
 values = (
 {
 language = dflt;
-value = "Prototype font for writing education in the Latin script";
+value = "Pendot is a trademark of SIL International.";
 }
 );
+},
+{
+key = vendorID;
+value = "SIL ";
 }
 );
 settings = {
