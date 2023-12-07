@@ -219,10 +219,10 @@ disablesAutomaticAlignment = 1;
 unitsPerEm = 2048;
 userData = {
 co.uk.corvelsoftware.Dotter = {
-dotSize = 15;
-dotSpacing = 15;
+dotSize = 60;
+dotSpacing = 40;
 preventOverlaps = 1;
-splitPaths = 0;
+splitPaths = 1;
 };
 };
 versionMajor = 0;

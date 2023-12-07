@@ -5,6 +5,10 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (710,0);
+ref = _c.stemR;
+},
+{
 closed = 0;
 nodes = (
 (250,1000,l),
@@ -16,12 +20,12 @@ nodes = (
 (530,0,cs),
 (700,0,o),
 (852,105,o),
-(960,400,c)
+(960,400,c,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+})
 );
-},
-{
-pos = (710,0);
-ref = _c.stemR;
 }
 );
 width = 1210;

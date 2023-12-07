@@ -18,7 +18,11 @@ nodes = (
 (740,0,l),
 (740,100,o),
 (740,700,o),
-(740,800,cs)
+(740,800,cs,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+})
 );
 }
 );

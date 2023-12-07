@@ -10,7 +10,11 @@ ref = _c.stemLA;
 {
 closed = 0;
 nodes = (
-(250,900,l),
+(250,900,l,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
 (350,900,o),
 (1030,900,o),
 (1130,900,c)
@@ -19,7 +23,11 @@ nodes = (
 {
 closed = 0;
 nodes = (
-(250,0,l),
+(250,0,l,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
 (350,0,o),
 (1030,0,o),
 (1130,0,c)
@@ -28,7 +36,11 @@ nodes = (
 {
 closed = 0;
 nodes = (
-(250,1700,l),
+(250,1700,l,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
 (350,1700,o),
 (1030,1700,o),
 (1130,1700,c)

@@ -14,7 +14,11 @@ ref = _c.stemLA;
 {
 closed = 0;
 nodes = (
-(250,1700,l),
+(250,1700,l,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
 (940,0,l),
 (1630,1704,l)
 );

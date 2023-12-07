@@ -14,10 +14,18 @@ ref = _c.stemLA;
 {
 closed = 0;
 nodes = (
-(250,900,l),
+(250,900,l,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
 (350,900,o),
 (1170,900,o),
-(1270,900,c)
+(1270,900,c,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+})
 );
 }
 );
