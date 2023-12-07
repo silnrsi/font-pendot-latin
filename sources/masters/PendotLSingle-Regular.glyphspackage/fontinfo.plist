@@ -219,8 +219,8 @@ disablesAutomaticAlignment = 1;
 unitsPerEm = 2048;
 userData = {
 co.uk.corvelsoftware.Dotter = {
-dotSize = 50;
-dotSpacing = 50;
+dotSize = 15;
+dotSpacing = 15;
 preventOverlaps = 1;
 splitPaths = 1;
 };
