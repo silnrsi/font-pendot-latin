@@ -1,0 +1,16 @@
+sources:
+ - masters/PendotLSingle-Regular.glyphspackage
+familyName: "Pendot L Single Dotted"
+
+recipe:
+  ../fonts/ttf/PendotLTestA-Dotted.ttf:
+    - source: masters/PendotLSingle-Regular.glyphspackage
+    - operation: exec
+      exe: pendot
+      args: dot -o build/PendotLSingle-Dotted.glyphs masters/PendotLSingle-Regular.glyphspackage
+    - source: build/PendotLSingle-Dotted.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildTTF
+    - operation: rename
+      name: Pendot L Single Dotted
+    - operation: fix
