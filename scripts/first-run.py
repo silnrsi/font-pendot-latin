@@ -107,7 +107,7 @@ readme = readme.replace(
 with open("README.md", "w") as fh:
     fh.write(readme)
 
-# Fix the OFL
+# Fill in the placeholders in the OFL header
 
 ofl = open("OFL.txt").read()
 ofl = ofl.replace(web_url(BASE_OWNER, BASE_REPONAME), web_url(owner, reponame))
