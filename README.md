@@ -23,3 +23,5 @@ The CI (GitHub Action) installs ttfautohint
 
 ``make clean`` : Removes generated files from the build, including the virtual environment folder(s)
 
+``make images`` : Generates drawbot proof image(s)
+
