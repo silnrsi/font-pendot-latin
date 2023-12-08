@@ -222,7 +222,7 @@ co.uk.corvelsoftware.Dotter = {
 dotSize = 60;
 dotSpacing = 40;
 preventOverlaps = 1;
-splitPaths = 0;
+splitPaths = 1;
 };
 };
 versionMajor = 0;
