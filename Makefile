@@ -44,7 +44,6 @@ proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof; cp scripts/index.html out/index.html
 
 images: venv build.stamp $(DRAWBOT_OUTPUT)
-	git add documentation/*.png && git commit -m "Rebuild images" documentation/*.png
 
 %.png: %.py build.stamp
 	. venv/bin/activate; python3 $< --output $@
