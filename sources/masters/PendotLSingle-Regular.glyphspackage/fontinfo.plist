@@ -89,7 +89,7 @@ values = (
 language = dflt;
 value = "Copyright (c) 2004-2023 SIL International (https://www.sil.org/) with Reserved Font Names \"Pendot\" and \"SIL\". This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+https://openfontlicense.org
 
 
 -----------------------------------------------------------
@@ -184,7 +184,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
