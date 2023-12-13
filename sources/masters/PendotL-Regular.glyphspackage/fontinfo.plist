@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3228";
 .formatVersion = 3;
 date = "2023-10-13 15:17:30 +0000";
 familyName = "Pendot L Test A";
@@ -219,10 +219,21 @@ disablesAutomaticAlignment = 1;
 unitsPerEm = 2048;
 userData = {
 co.uk.corvelsoftware.Dotter = {
-dotSize = 60;
+alternateLayerName = "<null>";
+dotSize = 85;
 dotSpacing = 40;
+endCap = round;
+joinType = round;
 preventOverlaps = 1;
+removeExternal = 0;
+removeInternal = 0;
+segmentWise = 0;
 splitPaths = 1;
+startCap = round;
+strokerAngle = 0;
+strokerHeight = 50;
+strokerHeightLock = 1;
+strokerWidth = 50;
 };
 };
 versionMajor = 0;

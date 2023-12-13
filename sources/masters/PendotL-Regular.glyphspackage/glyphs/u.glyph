@@ -2,6 +2,29 @@
 glyphname = u;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(250,1000,l),
+(250,900,o),
+(250,500,o),
+(250,400,cs),
+(250,100,o),
+(355,0,o),
+(530,0,cs),
+(700,0,o),
+(852,105,o),
+(960,400,c,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = "1";
+};
+})
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -19,8 +42,8 @@ nodes = (
 (355,0,o),
 (530,0,cs),
 (700,0,o),
-(852,105,o),
-(960,400,c,{
+(850,110,o),
+(960,500,c,{
 co.uk.corvelsoftware.Dotter = {
 locally_forced = 1;
 };

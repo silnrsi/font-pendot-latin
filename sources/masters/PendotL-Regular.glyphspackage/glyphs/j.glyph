@@ -20,8 +20,10 @@ nodes = (
 );
 },
 {
-pos = (0,100);
-ref = dotaccentcomb;
+closed = 0;
+nodes = (
+(310,1360,l)
+);
 }
 );
 width = 620;
