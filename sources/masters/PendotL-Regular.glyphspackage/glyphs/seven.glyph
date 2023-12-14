@@ -1,0 +1,24 @@
+{
+glyphname = seven;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(170,1700,l),
+(1330,1700,l,{
+co.uk.corvelsoftware.Dotter = {
+forced = 1;
+};
+}),
+(550,0,l)
+);
+}
+);
+width = 1500;
+}
+);
+unicode = 55;
+}

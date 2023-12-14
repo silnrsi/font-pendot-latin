@@ -1,0 +1,31 @@
+{
+glyphname = four;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(1330,500,l),
+(1230,500,o),
+(270,500,o),
+(170,500,c),
+(308,717,o),
+(840,1520,o),
+(950,1700,c,{
+co.uk.corvelsoftware.Dotter = {
+locally_forced = 1;
+};
+}),
+(950,1600,o),
+(950,100,o),
+(950,0,c)
+);
+}
+);
+width = 1500;
+}
+);
+unicode = 52;
+}

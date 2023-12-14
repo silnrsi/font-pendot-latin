@@ -34,14 +34,14 @@ nodes = (
 {
 closed = 0;
 nodes = (
-(510,870,l,{
+(560,870,l,{
 co.uk.corvelsoftware.Dotter = {
 locally_forced = 1;
 };
 }),
-(655,870,o),
-(752,794,o),
-(864,600,cs),
+(755,870,o),
+(877,705,o),
+(974,500,cs),
 (1210,0,l)
 );
 }

@@ -1,0 +1,16 @@
+{
+glyphname = zero;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-10,0);
+ref = O;
+}
+);
+width = 1500;
+}
+);
+unicode = 48;
+}
