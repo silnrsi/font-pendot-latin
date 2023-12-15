@@ -1,0 +1,24 @@
+{
+glyphname = comma;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(210,-200,l),
+(364,-84,o),
+(376,-35,o),
+(376,0,cs),
+(376,35,o),
+(353,79,o),
+(310,110,c)
+);
+}
+);
+width = 620;
+}
+);
+unicode = 44;
+}

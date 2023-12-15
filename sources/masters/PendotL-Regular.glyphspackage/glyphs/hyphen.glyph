@@ -1,0 +1,21 @@
+{
+glyphname = hyphen;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(150,800,l),
+(250,800,o),
+(750,800,o),
+(850,800,c)
+);
+}
+);
+width = 1000;
+}
+);
+unicode = 45;
+}

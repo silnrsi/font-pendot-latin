@@ -1,0 +1,15 @@
+{
+glyphname = question;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = period;
+}
+);
+width = 620;
+}
+);
+unicode = 63;
+}

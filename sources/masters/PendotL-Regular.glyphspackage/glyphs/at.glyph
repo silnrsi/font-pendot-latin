@@ -1,0 +1,10 @@
+{
+glyphname = at;
+layers = (
+{
+layerId = m01;
+width = 1200;
+}
+);
+unicode = 64;
+}
