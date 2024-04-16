@@ -1,5 +1,5 @@
 {
-.appVersion = "3228";
+.appVersion = "3300";
 .formatVersion = 3;
 date = "2023-10-13 15:17:30 +0000";
 familyName = "Pendot L Test A";
@@ -31,6 +31,32 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
+userData = {
+co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
+co.uk.corvelsoftware.Dotter.dotSize = 80;
+co.uk.corvelsoftware.Dotter.dotSpacing = 60;
+co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.strokerAngle = 0;
+co.uk.corvelsoftware.Dotter.strokerHeight = 50;
+co.uk.corvelsoftware.Dotter.strokerWidth = 50;
+};
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Alternate;
+userData = {
+co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
+co.uk.corvelsoftware.Dotter.dotSize = 100;
+co.uk.corvelsoftware.Dotter.dotSpacing = 50;
+co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.splitPaths = 0;
+co.uk.corvelsoftware.Dotter.strokerAngle = 0;
+co.uk.corvelsoftware.Dotter.strokerHeight = 50;
+co.uk.corvelsoftware.Dotter.strokerWidth = 50;
+};
 }
 );
 metrics = (
