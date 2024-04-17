@@ -24,6 +24,32 @@ nodes = (
 }
 );
 width = 920;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (461,1000);
+ref = _dot;
+},
+{
+pos = (317.586,896.642);
+ref = _dot;
+},
+{
+pos = (372.149,728.91);
+ref = _dot;
+},
+{
+pos = (548.41,729.321);
+ref = _dot;
+},
+{
+pos = (602.189,897.311);
+ref = _dot;
+}
+);
+width = 920;
 }
 );
 unicode = 8226;

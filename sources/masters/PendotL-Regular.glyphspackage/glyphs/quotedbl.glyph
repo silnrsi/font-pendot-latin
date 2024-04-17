@@ -13,6 +13,44 @@ ref = quotesingle;
 }
 );
 width = 910;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (310,1700);
+ref = _dot;
+},
+{
+pos = (310,1200);
+ref = _dot;
+},
+{
+pos = (600,1700);
+ref = _dot;
+},
+{
+pos = (600,1200);
+ref = _dot;
+},
+{
+pos = (310,1532.902);
+ref = _dot;
+},
+{
+pos = (310,1365.945);
+ref = _dot;
+},
+{
+pos = (600,1532.902);
+ref = _dot;
+},
+{
+pos = (600,1365.945);
+ref = _dot;
+}
+);
+width = 910;
 }
 );
 unicode = 34;

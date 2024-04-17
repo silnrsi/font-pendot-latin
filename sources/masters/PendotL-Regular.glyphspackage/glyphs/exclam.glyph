@@ -18,6 +18,48 @@ nodes = (
 }
 );
 width = 620;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (310,0);
+ref = _dot;
+},
+{
+pos = (310,1700);
+ref = _dot;
+},
+{
+pos = (310,400);
+ref = _dot;
+},
+{
+pos = (310,1514.07);
+ref = _dot;
+},
+{
+pos = (310,1328.161);
+ref = _dot;
+},
+{
+pos = (310,1141.535);
+ref = _dot;
+},
+{
+pos = (310,954.898);
+ref = _dot;
+},
+{
+pos = (310,768.547);
+ref = _dot;
+},
+{
+pos = (310,581.987);
+ref = _dot;
+}
+);
+width = 620;
 }
 );
 unicode = 33;

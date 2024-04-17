@@ -13,6 +13,24 @@ ref = period;
 }
 );
 width = 620;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (210,-200);
+ref = _dot;
+},
+{
+pos = (310,110);
+ref = _dot;
+},
+{
+pos = (310,800);
+ref = _dot;
+}
+);
+width = 620;
 }
 );
 unicode = 59;

@@ -15,6 +15,44 @@ nodes = (
 }
 );
 width = 1200;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (0,-200);
+ref = _dot;
+},
+{
+pos = (1200,-200);
+ref = _dot;
+},
+{
+pos = (172.631,-200);
+ref = _dot;
+},
+{
+pos = (344.885,-200);
+ref = _dot;
+},
+{
+pos = (517.725,-200);
+ref = _dot;
+},
+{
+pos = (690.451,-200);
+ref = _dot;
+},
+{
+pos = (862.66,-200);
+ref = _dot;
+},
+{
+pos = (1034.6,-200);
+ref = _dot;
+}
+);
+width = 1200;
 }
 );
 unicode = 95;

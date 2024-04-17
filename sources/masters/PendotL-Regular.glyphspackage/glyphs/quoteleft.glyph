@@ -11,6 +11,32 @@ ref = quoteright;
 }
 );
 width = 660;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (410,1200);
+ref = _dot;
+},
+{
+pos = (410,1700);
+ref = _dot;
+},
+{
+pos = (281.62,1284.619);
+ref = _dot;
+},
+{
+pos = (252.287,1435.974);
+ref = _dot;
+},
+{
+pos = (307.218,1582.052);
+ref = _dot;
+}
+);
+width = 660;
 }
 );
 unicode = 8216;

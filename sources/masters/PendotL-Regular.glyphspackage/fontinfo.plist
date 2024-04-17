@@ -23,6 +23,26 @@ pos = -500;
 }
 );
 name = Regular;
+},
+{
+id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+metricValues = (
+{
+pos = 1700;
+},
+{
+pos = 1700;
+},
+{
+pos = 1000;
+},
+{
+},
+{
+pos = -500;
+}
+);
+name = "Pendot Preview";
 }
 );
 instances = (
@@ -33,13 +53,38 @@ m01 = 1;
 name = Regular;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 80;
-co.uk.corvelsoftware.Dotter.dotSpacing = 60;
+co.uk.corvelsoftware.Dotter.dotSize = 60;
+co.uk.corvelsoftware.Dotter.dotSpacing = 42;
+co.uk.corvelsoftware.Dotter.endCap = round;
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = "40";
+},
+{
+height = "x-Height";
+thickness = "40";
+},
+{
+height = Baseline;
+thickness = "48";
+},
+{
+height = Ascender;
+thickness = "40";
+}
+);
+co.uk.corvelsoftware.Dotter.joinType = round;
+co.uk.corvelsoftware.Dotter.mode = dotter;
 co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.removeExternal = 0;
+co.uk.corvelsoftware.Dotter.removeInternal = 0;
+co.uk.corvelsoftware.Dotter.segmentWise = 0;
 co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.startCap = round;
 co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 50;
-co.uk.corvelsoftware.Dotter.strokerWidth = 50;
+co.uk.corvelsoftware.Dotter.strokerHeight = 100;
+co.uk.corvelsoftware.Dotter.strokerWidth = 100;
 };
 },
 {
@@ -49,10 +94,35 @@ m01 = 1;
 name = Alternate;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 100;
-co.uk.corvelsoftware.Dotter.dotSpacing = 50;
+co.uk.corvelsoftware.Dotter.dotSize = 134;
+co.uk.corvelsoftware.Dotter.dotSpacing = 62;
+co.uk.corvelsoftware.Dotter.endCap = round;
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = 10;
+},
+{
+height = "x-Height";
+thickness = 10;
+},
+{
+height = "Cap Height";
+thickness = 10;
+},
+{
+height = Ascender;
+thickness = 10;
+}
+);
+co.uk.corvelsoftware.Dotter.joinType = round;
+co.uk.corvelsoftware.Dotter.mode = dotter;
 co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.splitPaths = 0;
+co.uk.corvelsoftware.Dotter.removeExternal = 0;
+co.uk.corvelsoftware.Dotter.removeInternal = 0;
+co.uk.corvelsoftware.Dotter.segmentWise = 0;
+co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.startCap = round;
 co.uk.corvelsoftware.Dotter.strokerAngle = 0;
 co.uk.corvelsoftware.Dotter.strokerHeight = 50;
 co.uk.corvelsoftware.Dotter.strokerWidth = 50;

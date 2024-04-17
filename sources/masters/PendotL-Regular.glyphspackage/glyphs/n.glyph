@@ -12,6 +12,83 @@ ref = _c.arch;
 }
 );
 width = 1185;
+},
+{
+associatedMasterId = m01;
+layerId = "5798560F-A0F2-44C9-9309-6A085CBA0CFF";
+name = "Pendot Quick Preview";
+visible = 1;
+width = 1185;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+pos = (250,0);
+ref = _dot;
+},
+{
+pos = (200,1000);
+ref = _dot;
+},
+{
+pos = (960,0);
+ref = _dot;
+},
+{
+pos = (250,500);
+ref = _dot;
+},
+{
+pos = (250,167.674);
+ref = _dot;
+},
+{
+pos = (250,335.206);
+ref = _dot;
+},
+{
+pos = (244.77,670.186);
+ref = _dot;
+},
+{
+pos = (230.006,837.227);
+ref = _dot;
+},
+{
+pos = (960,187.399);
+ref = _dot;
+},
+{
+pos = (960,375.132);
+ref = _dot;
+},
+{
+pos = (960,562.521);
+ref = _dot;
+},
+{
+pos = (948.984,749.343);
+ref = _dot;
+},
+{
+pos = (879.146,920.533);
+ref = _dot;
+},
+{
+pos = (714.718,998.581);
+ref = _dot;
+},
+{
+pos = (532.94,965.71);
+ref = _dot;
+},
+{
+pos = (396.595,839.802);
+ref = _dot;
+}
+);
+width = 1185;
 }
 );
 unicode = 110;
