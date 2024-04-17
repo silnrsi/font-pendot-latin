@@ -7,10 +7,22 @@ recipe:
     - source: masters/PendotL-Regular.glyphspackage
     - operation: exec
       exe: pendot
-      args: dot -o build/PendotL-Dotted.glyphs masters/PendotL-Regular.glyphspackage
+      args: dot -o build/PendotL-Dotted.glyphs masters/PendotL-Regular.glyphspackage Regular
     - source: build/PendotL-Dotted.glyphs
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildTTF
     - operation: rename
       name: Pendot Latin Test Dotted
+    - operation: fix
+
+  ../fonts/ttf/PendotLTestA-Alternate.ttf:
+    - source: masters/PendotL-Regular.glyphspackage
+    - operation: exec
+      exe: pendot
+      args: dot -o build/PendotL-Alternate.glyphs masters/PendotL-Regular.glyphspackage Alternate
+    - source: build/PendotL-Alternate.glyphs
+    - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildTTF
+    - operation: rename
+      name: Pendot Latin Test Alternate
     - operation: fix
