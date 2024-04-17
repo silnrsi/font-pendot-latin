@@ -53,8 +53,8 @@ m01 = 1;
 name = Regular;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 60;
-co.uk.corvelsoftware.Dotter.dotSpacing = 42;
+co.uk.corvelsoftware.Dotter.dotSize = 64;
+co.uk.corvelsoftware.Dotter.dotSpacing = 38;
 co.uk.corvelsoftware.Dotter.endCap = round;
 co.uk.corvelsoftware.Dotter.guidelines = (
 {
@@ -94,8 +94,8 @@ m01 = 1;
 name = Alternate;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 134;
-co.uk.corvelsoftware.Dotter.dotSpacing = 62;
+co.uk.corvelsoftware.Dotter.dotSize = 48;
+co.uk.corvelsoftware.Dotter.dotSpacing = 40;
 co.uk.corvelsoftware.Dotter.endCap = round;
 co.uk.corvelsoftware.Dotter.guidelines = (
 {
