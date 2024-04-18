@@ -4,7 +4,7 @@ familyName: "Pendot L Source"
 
 recipe:
   ../fonts/ttf/PendotLTestA-Light.ttf:
-    - source: masters/PendotLDot-Regular.glyphspackage
+    - source: masters/PendotLSource-Regular.glyphspackage
     - operation: exec
       exe: pendot
       args: dot -o build/PendotLDot-Light.glyphs masters/PendotLSource-Regular.glyphspackage Light
@@ -16,7 +16,7 @@ recipe:
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-Regular.ttf:
-    - source: masters/PendotLDot-Regular.glyphspackage
+    - source: masters/PendotLSource-Regular.glyphspackage
     - operation: exec
       exe: pendot
       args: dot -o build/PendotLDot-Regular.glyphs masters/PendotLSource-Regular.glyphspackage Regular
@@ -28,7 +28,7 @@ recipe:
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-SemiBold.ttf:
-    - source: masters/PendotLDot-Regular.glyphspackage
+    - source: masters/PendotLSource-Regular.glyphspackage
     - operation: exec
       exe: pendot
       args: dot -o build/PendotLDot-SemiBold.glyphs masters/PendotLSource-Regular.glyphspackage SemiBold
@@ -40,7 +40,7 @@ recipe:
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-Bold.ttf:
-    - source: masters/PendotLDot-Regular.glyphspackage
+    - source: masters/PendotLSource-Regular.glyphspackage
     - operation: exec
       exe: pendot
       args: dot -o build/PendotLDot-Bold.glyphs masters/PendotLSource-Regular.glyphspackage Bold
