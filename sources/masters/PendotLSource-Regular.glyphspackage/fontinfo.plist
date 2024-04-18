@@ -180,8 +180,8 @@ linkStyle = Regular;
 name = Bold;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 100;
-co.uk.corvelsoftware.Dotter.dotSpacing = 36;
+co.uk.corvelsoftware.Dotter.dotSize = 98;
+co.uk.corvelsoftware.Dotter.dotSpacing = 38;
 co.uk.corvelsoftware.Dotter.endCap = round;
 co.uk.corvelsoftware.Dotter.guidelines = (
 {
@@ -213,7 +213,6 @@ co.uk.corvelsoftware.Dotter.strokerAngle = 0;
 co.uk.corvelsoftware.Dotter.strokerHeight = 130;
 co.uk.corvelsoftware.Dotter.strokerWidth = 130;
 };
-
 weightClass = 700;
 }
 );
