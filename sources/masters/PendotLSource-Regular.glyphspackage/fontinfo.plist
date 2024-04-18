@@ -1,8 +1,8 @@
 {
 .appVersion = "3300";
 .formatVersion = 3;
-date = "2023-10-13 15:17:30 +0000";
-familyName = "Pendot L Test A";
+date = "2024-04-18 10:47:08 +0000";
+familyName = "Pendot L Source";
 fontMaster = (
 {
 id = m01;
@@ -50,48 +50,7 @@ instances = (
 instanceInterpolations = {
 m01 = 1;
 };
-name = Regular;
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 64;
-co.uk.corvelsoftware.Dotter.dotSpacing = 38;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = "40";
-},
-{
-height = "x-Height";
-thickness = "40";
-},
-{
-height = Baseline;
-thickness = "48";
-},
-{
-height = Ascender;
-thickness = "40";
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = dotter;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 1;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 100;
-co.uk.corvelsoftware.Dotter.strokerWidth = 100;
-};
-},
-{
-instanceInterpolations = {
-m01 = 1;
-};
-name = Alternate;
+name = Light;
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
 co.uk.corvelsoftware.Dotter.dotSize = 48;
@@ -127,6 +86,135 @@ co.uk.corvelsoftware.Dotter.strokerAngle = 0;
 co.uk.corvelsoftware.Dotter.strokerHeight = 50;
 co.uk.corvelsoftware.Dotter.strokerWidth = 50;
 };
+weightClass = 300;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+userData = {
+co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
+co.uk.corvelsoftware.Dotter.dotSize = 64;
+co.uk.corvelsoftware.Dotter.dotSpacing = 38;
+co.uk.corvelsoftware.Dotter.endCap = round;
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = "40";
+},
+{
+height = "x-Height";
+thickness = "40";
+},
+{
+height = Baseline;
+thickness = "48";
+},
+{
+height = Ascender;
+thickness = "40";
+}
+);
+co.uk.corvelsoftware.Dotter.joinType = round;
+co.uk.corvelsoftware.Dotter.mode = dotter;
+co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.removeExternal = 0;
+co.uk.corvelsoftware.Dotter.removeInternal = 0;
+co.uk.corvelsoftware.Dotter.segmentWise = 0;
+co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.startCap = round;
+co.uk.corvelsoftware.Dotter.strokerAngle = 0;
+co.uk.corvelsoftware.Dotter.strokerHeight = 80;
+co.uk.corvelsoftware.Dotter.strokerWidth = 80;
+};
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = SemiBold;
+userData = {
+co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
+co.uk.corvelsoftware.Dotter.dotSize = 82;
+co.uk.corvelsoftware.Dotter.dotSpacing = 53;
+co.uk.corvelsoftware.Dotter.endCap = round;
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = "40";
+},
+{
+height = "x-Height";
+thickness = "40";
+},
+{
+height = Baseline;
+thickness = "48";
+},
+{
+height = Ascender;
+thickness = "40";
+}
+);
+co.uk.corvelsoftware.Dotter.joinType = round;
+co.uk.corvelsoftware.Dotter.mode = dotter;
+co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.removeExternal = 0;
+co.uk.corvelsoftware.Dotter.removeInternal = 0;
+co.uk.corvelsoftware.Dotter.segmentWise = 0;
+co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.startCap = round;
+co.uk.corvelsoftware.Dotter.strokerAngle = 0;
+co.uk.corvelsoftware.Dotter.strokerHeight = 100;
+co.uk.corvelsoftware.Dotter.strokerWidth = 100;
+};
+weightClass = 600;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+userData = {
+co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
+co.uk.corvelsoftware.Dotter.dotSize = 100;
+co.uk.corvelsoftware.Dotter.dotSpacing = 36;
+co.uk.corvelsoftware.Dotter.endCap = round;
+co.uk.corvelsoftware.Dotter.guidelines = (
+{
+height = Descender;
+thickness = "40";
+},
+{
+height = "x-Height";
+thickness = "40";
+},
+{
+height = Baseline;
+thickness = "48";
+},
+{
+height = Ascender;
+thickness = "40";
+}
+);
+co.uk.corvelsoftware.Dotter.joinType = round;
+co.uk.corvelsoftware.Dotter.mode = dotter;
+co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
+co.uk.corvelsoftware.Dotter.removeExternal = 0;
+co.uk.corvelsoftware.Dotter.removeInternal = 0;
+co.uk.corvelsoftware.Dotter.segmentWise = 0;
+co.uk.corvelsoftware.Dotter.splitPaths = 1;
+co.uk.corvelsoftware.Dotter.startCap = round;
+co.uk.corvelsoftware.Dotter.strokerAngle = 0;
+co.uk.corvelsoftware.Dotter.strokerHeight = 130;
+co.uk.corvelsoftware.Dotter.strokerWidth = 130;
+};
+
+weightClass = 700;
 }
 );
 metrics = (
@@ -152,7 +240,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2004-2023 SIL International (https://www.sil.org/)";
+value = "Copyright (c) 2004-2024 SIL International (https://www.sil.org/)";
 }
 );
 },
@@ -183,7 +271,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2004-2023 SIL International (https://www.sil.org/) with Reserved Font Names \"Pendot\" and \"SIL\". This Font Software is licensed under the SIL Open Font License, Version 1.1.
+value = "Copyright (c) 2004-2024 SIL International (https://www.sil.org/) with Reserved Font Names \"Pendot\" and \"SIL\". This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 https://openfontlicense.org
 
@@ -333,5 +421,5 @@ strokerWidth = 80;
 };
 };
 versionMajor = 0;
-versionMinor = 1;
+versionMinor = 100;
 }
