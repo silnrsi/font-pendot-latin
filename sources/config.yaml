@@ -12,7 +12,7 @@ recipe:
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildTTF
     - operation: rename
-      name: Pendot L Dot Test A
+      name: Pendot L Dot Test A Light
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-Regular.ttf:
@@ -24,7 +24,7 @@ recipe:
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildTTF
     - operation: rename
-      name: Pendot L Dot Test A
+      name: Pendot L Dot Test A Regular
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-SemiBold.ttf:
@@ -36,7 +36,7 @@ recipe:
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildTTF
     - operation: rename
-      name: Pendot L Dot Test A
+      name: Pendot L Dot Test A SemiBold
     - operation: fix
 
   ../fonts/ttf/PendotLTestA-Bold.ttf:
@@ -48,5 +48,5 @@ recipe:
     - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
       operation: buildTTF
     - operation: rename
-      name: Pendot L Dot Test A
+      name: Pendot L Dot Test A Bold
     - operation: fix
