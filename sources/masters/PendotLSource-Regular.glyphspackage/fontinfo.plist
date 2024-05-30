@@ -1,5 +1,5 @@
 {
-.appVersion = "3307";
+.appVersion = "3308";
 .formatVersion = 3;
 date = "2024-04-18 10:47:08 +0000";
 familyName = "Pendot L Source";
@@ -46,6 +46,13 @@ name = "Pendot Preview";
 }
 );
 instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen ExtraLight";
+weightClass = 200;
+},
 {
 customParameters = (
 {
@@ -133,7 +140,7 @@ value = 0;
 instanceInterpolations = {
 m01 = 1;
 };
-name = Light;
+name = "Pen Light";
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
 co.uk.corvelsoftware.Dotter.dotSize = 15;
@@ -258,7 +265,7 @@ value = 0;
 instanceInterpolations = {
 m01 = 1;
 };
-name = Regular;
+name = "Pen Regular";
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
 co.uk.corvelsoftware.Dotter.dotSize = 15;
@@ -382,7 +389,9 @@ value = 0;
 instanceInterpolations = {
 m01 = 1;
 };
-name = Bold;
+isBold = 1;
+linkStyle = "Pen Regular";
+name = "Pen Bold";
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
 co.uk.corvelsoftware.Dotter.dotSize = 15;
@@ -419,6 +428,13 @@ co.uk.corvelsoftware.Dotter.strokerHeight = 200;
 co.uk.corvelsoftware.Dotter.strokerWidth = 200;
 };
 weightClass = 700;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen ExtraBold";
+weightClass = 800;
 },
 {
 customParameters = (
@@ -764,6 +780,8 @@ value = 0;
 instanceInterpolations = {
 m01 = 1;
 };
+isBold = 1;
+linkStyle = "Dot Regular";
 name = "Dot Bold";
 userData = {
 co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
@@ -808,6 +826,92 @@ co.uk.corvelsoftware.Dotter.strokerAngle = 0;
 co.uk.corvelsoftware.Dotter.strokerHeight = 50;
 co.uk.corvelsoftware.Dotter.strokerWidth = 50;
 };
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot ExtraLight";
+weightClass = 200;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot ExtraBold";
+weightClass = 800;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen ExtraLight G";
+weightClass = 200;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen Light G";
+weightClass = 300;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen Regular G";
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+isBold = 1;
+linkStyle = "Pen Regular G";
+name = "Pen Bold G";
+weightClass = 700;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Pen ExtraBold G";
+weightClass = 800;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot ExtraLight G";
+weightClass = 200;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot Light G";
+weightClass = 300;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot Regular G";
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+isBold = 1;
+linkStyle = "Dot Regular G";
+name = "Dot Bold G";
+weightClass = 700;
+},
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot ExtraBold G";
+weightClass = 800;
 }
 );
 metrics = (
