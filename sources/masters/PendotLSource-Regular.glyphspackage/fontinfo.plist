@@ -20,6 +20,9 @@ pos = 1000;
 },
 {
 pos = -500;
+},
+{
+pos = -55;
 }
 );
 name = Regular;
@@ -40,6 +43,8 @@ pos = 1000;
 },
 {
 pos = -500;
+},
+{
 }
 );
 name = "Pendot Preview";
@@ -1448,7 +1453,7 @@ height = "x-Height";
 thickness = "40";
 },
 {
-height = Baseline;
+height = BaselineR;
 thickness = "64";
 },
 {
@@ -2161,6 +2166,9 @@ type = baseline;
 },
 {
 type = descender;
+},
+{
+name = BaselineR;
 }
 );
 properties = (
