@@ -1,5 +1,5 @@
 {
-.appVersion = "3308";
+.appVersion = "3309";
 .formatVersion = 3;
 date = "2024-04-18 10:47:08 +0000";
 familyName = "Pendot L Source";
@@ -118,6 +118,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Stroker
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -610,6 +614,85 @@ weightClass = 800;
 {
 customParameters = (
 {
+name = co.uk.corvelsoftware.Dotter.dotSize;
+value = 48;
+},
+{
+name = co.uk.corvelsoftware.Dotter.dotSpacing;
+value = 40;
+},
+{
+name = co.uk.corvelsoftware.Dotter.preventOverlaps;
+value = 1;
+},
+{
+name = co.uk.corvelsoftware.Dotter.splitPaths;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.contourSource;
+value = "<Default>";
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerWidth;
+value = 50;
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerHeight;
+value = 50;
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerAngle;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.startCap;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.endCap;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.joinType;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.removeExternal;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.removeInternal;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.segmentWise;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.startDotSize;
+value = 30;
+},
+{
+name = co.uk.corvelsoftware.Dotter.effects;
+value = (
+Dotter
+);
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Dot ExtraLight";
+weightClass = 200;
+},
+{
+customParameters = (
+{
 name = co.uk.corvelsoftware.Dotter.startCap;
 value = round;
 },
@@ -699,6 +782,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Dotter
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 75;
 }
 );
 instanceInterpolations = {
@@ -766,7 +853,7 @@ value = 82;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 0;
+value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
@@ -827,13 +914,17 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.startDotSize;
-value = 30;
+value = 120;
 },
 {
 name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Dotter
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 75;
 }
 );
 instanceInterpolations = {
@@ -976,6 +1067,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Dotter
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -1027,81 +1122,6 @@ co.uk.corvelsoftware.Dotter.strokerAngle = 0;
 co.uk.corvelsoftware.Dotter.strokerHeight = 50;
 co.uk.corvelsoftware.Dotter.strokerWidth = 50;
 };
-},
-{
-customParameters = (
-{
-name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 48;
-},
-{
-name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 40;
-},
-{
-name = co.uk.corvelsoftware.Dotter.preventOverlaps;
-value = 1;
-},
-{
-name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 0;
-},
-{
-name = co.uk.corvelsoftware.Dotter.contourSource;
-value = "<Default>";
-},
-{
-name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 50;
-},
-{
-name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 50;
-},
-{
-name = co.uk.corvelsoftware.Dotter.strokerAngle;
-value = 0;
-},
-{
-name = co.uk.corvelsoftware.Dotter.startCap;
-value = round;
-},
-{
-name = co.uk.corvelsoftware.Dotter.endCap;
-value = round;
-},
-{
-name = co.uk.corvelsoftware.Dotter.joinType;
-value = round;
-},
-{
-name = co.uk.corvelsoftware.Dotter.removeExternal;
-value = 0;
-},
-{
-name = co.uk.corvelsoftware.Dotter.removeInternal;
-value = 0;
-},
-{
-name = co.uk.corvelsoftware.Dotter.segmentWise;
-value = 0;
-},
-{
-name = co.uk.corvelsoftware.Dotter.startDotSize;
-value = 30;
-},
-{
-name = co.uk.corvelsoftware.Dotter.effects;
-value = (
-Dotter
-);
-}
-);
-instanceInterpolations = {
-m01 = 1;
-};
-name = "Dot ExtraLight";
-weightClass = 200;
 },
 {
 customParameters = (
@@ -1170,6 +1190,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Dotter
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
