@@ -158,11 +158,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 70;
+value = 50;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 70;
+value = 50;
 },
 {
 name = co.uk.corvelsoftware.Dotter.endCap;
@@ -232,41 +232,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen Light";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 15;
-co.uk.corvelsoftware.Dotter.dotSpacing = 15;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = 10;
-},
-{
-height = "x-Height";
-thickness = 10;
-},
-{
-height = "Cap Height";
-thickness = 10;
-},
-{
-height = Ascender;
-thickness = 10;
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = stroker;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 0;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 50;
-co.uk.corvelsoftware.Dotter.strokerWidth = 50;
-};
 weightClass = 300;
 },
 {
@@ -367,41 +332,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen Regular";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 15;
-co.uk.corvelsoftware.Dotter.dotSpacing = 15;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = 10;
-},
-{
-height = "x-Height";
-thickness = 10;
-},
-{
-height = "Cap Height";
-thickness = 10;
-},
-{
-height = Ascender;
-thickness = 10;
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = stroker;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 0;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 100;
-co.uk.corvelsoftware.Dotter.strokerWidth = 100;
-};
 },
 {
 customParameters = (
@@ -503,41 +433,6 @@ m01 = 1;
 isBold = 1;
 linkStyle = "Pen Regular";
 name = "Pen Bold";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 15;
-co.uk.corvelsoftware.Dotter.dotSpacing = 15;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = 10;
-},
-{
-height = "x-Height";
-thickness = 10;
-},
-{
-height = "Cap Height";
-thickness = 10;
-},
-{
-height = Ascender;
-thickness = 10;
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = stroker;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 0;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 200;
-co.uk.corvelsoftware.Dotter.strokerWidth = 200;
-};
 weightClass = 700;
 },
 {
@@ -796,41 +691,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot Light";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 64;
-co.uk.corvelsoftware.Dotter.dotSpacing = 38;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = "20";
-},
-{
-height = "x-Height";
-thickness = "20";
-},
-{
-height = Ascender;
-thickness = "20";
-},
-{
-height = Baseline;
-thickness = "40";
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = dotter;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 1;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 40;
-co.uk.corvelsoftware.Dotter.strokerWidth = 40;
-};
 weightClass = 200;
 },
 {
@@ -935,41 +795,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot Regular";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 82;
-co.uk.corvelsoftware.Dotter.dotSpacing = 53;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = 10;
-},
-{
-height = "x-Height";
-thickness = 10;
-},
-{
-height = "Cap Height";
-thickness = 10;
-},
-{
-height = Ascender;
-thickness = 10;
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = dotter;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 0;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 50;
-co.uk.corvelsoftware.Dotter.strokerWidth = 50;
-};
 },
 {
 customParameters = (
@@ -1083,49 +908,6 @@ m01 = 1;
 isBold = 1;
 linkStyle = "Dot Regular";
 name = "Dot Bold";
-userData = {
-co.uk.corvelsoftware.Dotter.contourSource = "<Default>";
-co.uk.corvelsoftware.Dotter.dotSize = 98;
-co.uk.corvelsoftware.Dotter.dotSpacing = 38;
-co.uk.corvelsoftware.Dotter.endCap = round;
-co.uk.corvelsoftware.Dotter.guidelines = (
-{
-height = Descender;
-thickness = "54";
-},
-{
-height = "x-Height";
-thickness = "54";
-},
-{
-height = Baseline;
-thickness = "80";
-},
-{
-height = Ascender;
-thickness = "54";
-},
-{
-height = "x-Height";
-thickness = 10;
-},
-{
-height = "Cap Height";
-thickness = 10;
-}
-);
-co.uk.corvelsoftware.Dotter.joinType = round;
-co.uk.corvelsoftware.Dotter.mode = dotter;
-co.uk.corvelsoftware.Dotter.preventOverlaps = 1;
-co.uk.corvelsoftware.Dotter.removeExternal = 0;
-co.uk.corvelsoftware.Dotter.removeInternal = 0;
-co.uk.corvelsoftware.Dotter.segmentWise = 0;
-co.uk.corvelsoftware.Dotter.splitPaths = 1;
-co.uk.corvelsoftware.Dotter.startCap = round;
-co.uk.corvelsoftware.Dotter.strokerAngle = 0;
-co.uk.corvelsoftware.Dotter.strokerHeight = 50;
-co.uk.corvelsoftware.Dotter.strokerWidth = 50;
-};
 },
 {
 customParameters = (
