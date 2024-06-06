@@ -158,11 +158,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 50;
+value = 70;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 50;
+value = 70;
 },
 {
 name = co.uk.corvelsoftware.Dotter.endCap;
@@ -222,6 +222,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Stroker
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
