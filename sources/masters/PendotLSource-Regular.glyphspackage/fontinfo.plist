@@ -158,11 +158,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 70;
+value = 50;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 70;
+value = 50;
 },
 {
 name = co.uk.corvelsoftware.Dotter.endCap;
@@ -293,11 +293,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 110;
+value = 100;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 110;
+value = 100;
 },
 {
 name = co.uk.corvelsoftware.Dotter.endCap;
@@ -427,11 +427,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
-value = 180;
+value = 200;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerWidth;
-value = 180;
+value = 200;
 },
 {
 name = co.uk.corvelsoftware.Dotter.endCap;
@@ -853,7 +853,7 @@ value = 82;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 1;
+value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
