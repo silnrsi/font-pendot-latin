@@ -713,11 +713,11 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 82;
+value = 80;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 0;
+value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.strokerHeight;
@@ -766,7 +766,7 @@ value = round;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 53;
+value = 45;
 },
 {
 name = co.uk.corvelsoftware.Dotter.preventOverlaps;
@@ -1660,6 +1660,10 @@ height = Descender;
 thickness = "30";
 }
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -1952,6 +1956,10 @@ height = Descender;
 thickness = "64";
 }
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -1959,6 +1967,105 @@ m01 = 1;
 };
 name = "Dot ExtraBold G";
 weightClass = 800;
+},
+{
+customParameters = (
+{
+name = co.uk.corvelsoftware.Dotter.dotSize;
+value = 15;
+},
+{
+name = co.uk.corvelsoftware.Dotter.dotSpacing;
+value = 15;
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
+},
+{
+name = co.uk.corvelsoftware.Dotter.preventOverlaps;
+value = 1;
+},
+{
+name = co.uk.corvelsoftware.Dotter.splitPaths;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.contourSource;
+value = "<Default>";
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerWidth;
+value = 50;
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerHeight;
+value = 50;
+},
+{
+name = co.uk.corvelsoftware.Dotter.strokerAngle;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.startCap;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.endCap;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.joinType;
+value = round;
+},
+{
+name = co.uk.corvelsoftware.Dotter.removeExternal;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.removeInternal;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.segmentWise;
+value = 0;
+},
+{
+name = co.uk.corvelsoftware.Dotter.startDotSize;
+value = 30;
+},
+{
+name = co.uk.corvelsoftware.Dotter.effects;
+value = (
+Guidelines
+);
+},
+{
+name = co.uk.corvelsoftware.Dotter.guidelines;
+value = (
+{
+height = Ascender;
+thickness = "30";
+},
+{
+height = "x-Height";
+thickness = "30";
+},
+{
+height = Baseline;
+thickness = "48";
+},
+{
+height = Descender;
+thickness = "30";
+}
+);
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Guidelines;
 }
 );
 metrics = (
