@@ -23,6 +23,8 @@ pos = -500;
 },
 {
 pos = -55;
+},
+{
 }
 );
 name = Regular;
@@ -45,9 +47,35 @@ pos = 1000;
 pos = -500;
 },
 {
+},
+{
 }
 );
 name = "Pendot Preview";
+},
+{
+id = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+metricValues = (
+{
+pos = 1700;
+},
+{
+pos = 1700;
+},
+{
+pos = 1000;
+},
+{
+},
+{
+pos = -500;
+},
+{
+},
+{
+}
+);
+name = Alt;
 }
 );
 instances = (
@@ -2086,6 +2114,9 @@ type = descender;
 },
 {
 name = BaselineR;
+},
+{
+type = "italic angle";
 }
 );
 properties = (
