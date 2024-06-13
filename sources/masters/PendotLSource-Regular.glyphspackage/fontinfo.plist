@@ -111,7 +111,7 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.startDotSize;
-value = 30;
+value = 120;
 },
 {
 name = co.uk.corvelsoftware.Dotter.effects;
@@ -609,7 +609,7 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 64;
+value = 60;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
@@ -662,7 +662,7 @@ value = round;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 38;
+value = 36;
 },
 {
 name = co.uk.corvelsoftware.Dotter.preventOverlaps;
