@@ -1,5 +1,4 @@
 {
-color = 1;
 glyphname = eturned;
 layers = (
 {
@@ -12,6 +11,12 @@ width = 1200;
 },
 {
 layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 1200;
+},
+{
+associatedMasterId = m01;
+layerId = "F13B0118-90D6-4632-A00E-091F04EC12A2";
+name = "Pendot Quick Preview";
 width = 1200;
 }
 );

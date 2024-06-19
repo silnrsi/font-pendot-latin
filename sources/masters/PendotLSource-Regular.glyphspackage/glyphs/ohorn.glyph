@@ -13,6 +13,12 @@ width = 1200;
 {
 layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
 width = 1200;
+},
+{
+associatedMasterId = m01;
+layerId = "4B43BA0F-B2E2-4A04-8F05-9400D8BEED47";
+name = "Pendot Quick Preview";
+width = 1200;
 }
 );
 unicode = 417;
