@@ -14,7 +14,32 @@ width = 1120;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = ogonekcomb;
+pos = (640,10);
+ref = _dot;
+},
+{
+pos = (739,-274);
+ref = _dot;
+},
+{
+pos = (539.132,-68.716);
+ref = _dot;
+},
+{
+pos = (468.404,-174.933);
+ref = _dot;
+},
+{
+pos = (450.502,-300.365);
+ref = _dot;
+},
+{
+pos = (527.466,-394.974);
+ref = _dot;
+},
+{
+pos = (645.515,-361.738);
+ref = _dot;
 }
 );
 width = 1120;

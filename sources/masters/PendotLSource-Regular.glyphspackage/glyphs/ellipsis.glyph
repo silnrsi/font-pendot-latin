@@ -20,13 +20,8 @@ width = 620;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = period;
-},
-{
-ref = period;
-},
-{
-ref = period;
+pos = (310,0);
+ref = _dot;
 }
 );
 width = 620;

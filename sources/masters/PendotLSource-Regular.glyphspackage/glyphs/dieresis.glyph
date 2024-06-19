@@ -14,7 +14,12 @@ width = 1120;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = dieresiscomb;
+pos = (350,1355);
+ref = _dot;
+},
+{
+pos = (770,1355);
+ref = _dot;
 }
 );
 width = 1120;

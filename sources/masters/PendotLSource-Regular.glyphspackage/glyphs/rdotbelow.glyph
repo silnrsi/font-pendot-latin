@@ -17,10 +17,72 @@ width = 970;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = r;
+pos = (200,1000);
+ref = _dot;
 },
 {
-ref = dotbelowcomb;
+pos = (250,500);
+ref = _dot;
+},
+{
+pos = (250,0);
+ref = _dot;
+},
+{
+pos = (870,700);
+ref = _dot;
+},
+{
+pos = (560,-265);
+ref = _dot;
+},
+{
+pos = (224.801,876.597);
+ref = _dot;
+},
+{
+pos = (238.873,751.427);
+ref = _dot;
+},
+{
+pos = (247.076,625.728);
+ref = _dot;
+},
+{
+pos = (250,375);
+ref = _dot;
+},
+{
+pos = (250,250);
+ref = _dot;
+},
+{
+pos = (250,125);
+ref = _dot;
+},
+{
+pos = (343.739,759.205);
+ref = _dot;
+},
+{
+pos = (415.44,876.852);
+ref = _dot;
+},
+{
+pos = (517.499,968.389);
+ref = _dot;
+},
+{
+pos = (650.067,999.782);
+ref = _dot;
+},
+{
+pos = (776.278,950.843);
+ref = _dot;
+},
+{
+pos = (849.663,835.91);
+ref = _dot;
 }
 );
 width = 970;

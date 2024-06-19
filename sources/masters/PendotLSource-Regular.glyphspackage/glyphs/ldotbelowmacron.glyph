@@ -20,13 +20,80 @@ width = 620;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = l;
+pos = (310,1700);
+ref = _dot;
 },
 {
-ref = dotbelowcomb;
+pos = (310,1360.145);
+ref = _dot;
 },
 {
-ref = macroncomb;
+pos = (310,870);
+ref = _dot;
+},
+{
+pos = (310,0);
+ref = _dot;
+},
+{
+pos = (560,-265);
+ref = _dot;
+},
+{
+pos = (850,1360);
+ref = _dot;
+},
+{
+pos = (310,1575);
+ref = _dot;
+},
+{
+pos = (310,1450);
+ref = _dot;
+},
+{
+pos = (310,1235.145);
+ref = _dot;
+},
+{
+pos = (310,1110.145);
+ref = _dot;
+},
+{
+pos = (310,985.145);
+ref = _dot;
+},
+{
+pos = (310,725);
+ref = _dot;
+},
+{
+pos = (310,580);
+ref = _dot;
+},
+{
+pos = (310,435);
+ref = _dot;
+},
+{
+pos = (310,290);
+ref = _dot;
+},
+{
+pos = (310,145);
+ref = _dot;
+},
+{
+pos = (445.015,1360);
+ref = _dot;
+},
+{
+pos = (580.01,1360);
+ref = _dot;
+},
+{
+pos = (715.005,1360);
+ref = _dot;
 }
 );
 width = 620;

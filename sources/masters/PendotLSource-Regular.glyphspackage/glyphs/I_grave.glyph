@@ -17,10 +17,136 @@ width = 1500;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = I;
+pos = (750,1700);
+ref = _dot;
 },
 {
-ref = gravecomb;
+pos = (750,1239.721);
+ref = _dot;
+},
+{
+pos = (750,870);
+ref = _dot;
+},
+{
+pos = (750,0);
+ref = _dot;
+},
+{
+pos = (250,0);
+ref = _dot;
+},
+{
+pos = (1250,0);
+ref = _dot;
+},
+{
+pos = (250,1700);
+ref = _dot;
+},
+{
+pos = (1250,1700);
+ref = _dot;
+},
+{
+pos = (750,1546.574);
+ref = _dot;
+},
+{
+pos = (750,1393.147);
+ref = _dot;
+},
+{
+pos = (750,1114.721);
+ref = _dot;
+},
+{
+pos = (750,989.721);
+ref = _dot;
+},
+{
+pos = (750,725);
+ref = _dot;
+},
+{
+pos = (750,580);
+ref = _dot;
+},
+{
+pos = (750,435);
+ref = _dot;
+},
+{
+pos = (750,290);
+ref = _dot;
+},
+{
+pos = (750,145);
+ref = _dot;
+},
+{
+pos = (375,0);
+ref = _dot;
+},
+{
+pos = (500,0);
+ref = _dot;
+},
+{
+pos = (625,0);
+ref = _dot;
+},
+{
+pos = (875,0);
+ref = _dot;
+},
+{
+pos = (1000,0);
+ref = _dot;
+},
+{
+pos = (1125,0);
+ref = _dot;
+},
+{
+pos = (395.075,1700);
+ref = _dot;
+},
+{
+pos = (520.075,1700);
+ref = _dot;
+},
+{
+pos = (645.075,1700);
+ref = _dot;
+},
+{
+pos = (875,1700);
+ref = _dot;
+},
+{
+pos = (1000,1700);
+ref = _dot;
+},
+{
+pos = (1125,1700);
+ref = _dot;
+},
+{
+pos = (366,1608);
+ref = _dot;
+},
+{
+pos = (462,1516);
+ref = _dot;
+},
+{
+pos = (558,1424);
+ref = _dot;
+},
+{
+pos = (654,1332);
+ref = _dot;
 }
 );
 width = 1500;

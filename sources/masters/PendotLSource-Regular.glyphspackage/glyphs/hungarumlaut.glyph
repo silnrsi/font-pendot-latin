@@ -14,7 +14,44 @@ width = 1120;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = hungarumlautcomb;
+pos = (330,1240);
+ref = _dot;
+},
+{
+pos = (630,1700);
+ref = _dot;
+},
+{
+pos = (640,1240);
+ref = _dot;
+},
+{
+pos = (940,1700);
+ref = _dot;
+},
+{
+pos = (405,1355);
+ref = _dot;
+},
+{
+pos = (480,1470);
+ref = _dot;
+},
+{
+pos = (555,1585);
+ref = _dot;
+},
+{
+pos = (715,1355);
+ref = _dot;
+},
+{
+pos = (790,1470);
+ref = _dot;
+},
+{
+pos = (865,1585);
+ref = _dot;
 }
 );
 width = 1120;

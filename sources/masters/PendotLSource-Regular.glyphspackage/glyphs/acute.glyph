@@ -14,7 +14,28 @@ width = 1120;
 layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 shapes = (
 {
-ref = acutecomb;
+pos = (370,1240);
+ref = _dot;
+},
+{
+pos = (850,1700);
+ref = _dot;
+},
+{
+pos = (466,1332);
+ref = _dot;
+},
+{
+pos = (562,1424);
+ref = _dot;
+},
+{
+pos = (658,1516);
+ref = _dot;
+},
+{
+pos = (754,1608);
+ref = _dot;
 }
 );
 width = 1120;
