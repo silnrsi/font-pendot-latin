@@ -2,11 +2,18 @@
 glyphname = brevecomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (560,1170);
+},
+{
+name = top;
+pos = (560,1600);
+}
+);
 layerId = m01;
 shapes = (
-{
-ref = o;
-},
 {
 closed = 0;
 nodes = (

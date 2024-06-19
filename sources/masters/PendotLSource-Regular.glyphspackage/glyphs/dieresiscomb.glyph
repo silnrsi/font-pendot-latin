@@ -2,11 +2,18 @@
 glyphname = dieresiscomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (560,1000);
+},
+{
+name = top;
+pos = (560,1365);
+}
+);
 layerId = m01;
 shapes = (
-{
-ref = o;
-},
 {
 pos = (-210,0);
 ref = dotaccentcomb;

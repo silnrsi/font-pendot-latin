@@ -2,6 +2,16 @@
 glyphname = W;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (1120,-100);
+},
+{
+name = top;
+pos = (1120,1770);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -314,6 +324,10 @@ ref = _dot;
 }
 );
 width = 2240;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 87;

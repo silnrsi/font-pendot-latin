@@ -2,6 +2,24 @@
 glyphname = U;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (820,-100);
+},
+{
+name = ogonek;
+pos = (870,-100);
+},
+{
+name = top;
+pos = (820,1770);
+},
+{
+name = topright;
+pos = (1540,1700);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -202,6 +220,10 @@ ref = _dot;
 }
 );
 width = 1640;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 85;

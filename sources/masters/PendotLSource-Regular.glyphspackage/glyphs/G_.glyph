@@ -2,6 +2,16 @@
 glyphname = G;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (760,-100);
+},
+{
+name = top;
+pos = (760,1770);
+}
+);
 background = {
 shapes = (
 {
@@ -259,6 +269,10 @@ ref = _dot;
 }
 );
 width = 1510;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 71;

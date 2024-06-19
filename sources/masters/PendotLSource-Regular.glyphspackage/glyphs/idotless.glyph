@@ -2,6 +2,20 @@
 glyphname = idotless;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (310,-100);
+},
+{
+name = ogonek;
+pos = (310,0);
+},
+{
+name = top;
+pos = (310,1170);
+}
+);
 layerId = m01;
 shapes = (
 {

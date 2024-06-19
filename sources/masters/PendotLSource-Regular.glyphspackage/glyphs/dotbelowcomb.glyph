@@ -2,6 +2,16 @@
 glyphname = dotbelowcomb;
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (560,-100);
+},
+{
+name = bottom;
+pos = (560,-400);
+}
+);
 layerId = m01;
 shapes = (
 {

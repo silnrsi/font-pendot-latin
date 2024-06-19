@@ -2,11 +2,18 @@
 glyphname = circumflexcomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (560,1170);
+},
+{
+name = top;
+pos = (560,1770);
+}
+);
 layerId = m01;
 shapes = (
-{
-ref = o;
-},
 {
 closed = 0;
 nodes = (

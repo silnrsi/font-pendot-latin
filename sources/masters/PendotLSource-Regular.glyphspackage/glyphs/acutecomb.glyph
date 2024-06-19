@@ -2,6 +2,16 @@
 glyphname = acutecomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (560,1170);
+},
+{
+name = top;
+pos = (560,1770);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -10,9 +20,6 @@ nodes = (
 (370,1240,l),
 (850,1700,l)
 );
-},
-{
-ref = o;
 }
 );
 width = 1120;

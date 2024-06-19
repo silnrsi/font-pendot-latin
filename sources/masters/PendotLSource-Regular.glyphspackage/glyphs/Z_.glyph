@@ -2,6 +2,20 @@
 glyphname = Z;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (710,-100);
+},
+{
+name = center;
+pos = (710,870);
+},
+{
+name = top;
+pos = (710,1770);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -205,6 +219,10 @@ ref = _dot;
 }
 );
 width = 1475;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 90;

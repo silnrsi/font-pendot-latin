@@ -2,6 +2,16 @@
 glyphname = dotaccentcomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (560,1000);
+},
+{
+name = top;
+pos = (560,1365);
+}
+);
 layerId = m01;
 shapes = (
 {

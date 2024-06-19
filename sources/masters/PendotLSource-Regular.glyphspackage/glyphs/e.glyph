@@ -2,6 +2,20 @@
 glyphname = e;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (560,-100);
+},
+{
+name = ogonek;
+pos = (600,-100);
+},
+{
+name = top;
+pos = (560,1170);
+}
+);
 background = {
 shapes = (
 {
