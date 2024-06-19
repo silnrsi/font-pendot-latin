@@ -1,4 +1,5 @@
 {
+color = 1;
 glyphname = question;
 layers = (
 {
@@ -19,6 +20,10 @@ ref = _dot;
 }
 );
 width = 620;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 63;
