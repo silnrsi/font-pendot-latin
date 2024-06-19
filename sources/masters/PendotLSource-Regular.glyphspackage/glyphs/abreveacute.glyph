@@ -1,0 +1,51 @@
+{
+glyphname = abreveacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+ref = brevecomb;
+},
+{
+ref = acutecomb;
+}
+);
+width = 1170;
+},
+{
+layerId = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+shapes = (
+{
+ref = a;
+},
+{
+ref = brevecomb;
+},
+{
+ref = acutecomb;
+}
+);
+width = 1170;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+shapes = (
+{
+ref = a;
+},
+{
+ref = brevecomb;
+},
+{
+ref = acutecomb;
+}
+);
+width = 600;
+}
+);
+unicode = 7855;
+}
