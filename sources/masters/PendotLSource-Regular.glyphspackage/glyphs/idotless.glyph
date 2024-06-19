@@ -1,5 +1,5 @@
 {
-glyphname = i;
+glyphname = idotless;
 layers = (
 {
 layerId = m01;
@@ -12,10 +12,6 @@ nodes = (
 (310,100,o),
 (310,0,c)
 );
-},
-{
-pos = (-250,0);
-ref = dotaccentcomb;
 }
 );
 width = 620;
@@ -29,10 +25,6 @@ ref = _dot;
 },
 {
 pos = (310,0);
-ref = _dot;
-},
-{
-pos = (310,1360);
 ref = _dot;
 },
 {
@@ -76,8 +68,8 @@ width = 620;
 },
 {
 layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
-width = 600;
+width = 1200;
 }
 );
-unicode = 105;
+unicode = 305;
 }

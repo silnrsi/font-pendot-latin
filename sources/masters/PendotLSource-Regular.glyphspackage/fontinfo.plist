@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3310";
 .formatVersion = 3;
 date = "2024-04-18 10:47:08 +0000";
 familyName = "Pendot L Source";
@@ -354,6 +354,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Stroker
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -453,6 +457,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Stroker
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
@@ -530,6 +538,10 @@ name = co.uk.corvelsoftware.Dotter.effects;
 value = (
 Stroker
 );
+},
+{
+name = co.uk.corvelsoftware.Dotter.flexPercent;
+value = 25;
 }
 );
 instanceInterpolations = {
