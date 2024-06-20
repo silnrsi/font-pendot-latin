@@ -992,7 +992,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 1170;
 },
 {

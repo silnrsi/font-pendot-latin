@@ -37,6 +37,9 @@ forced = 1;
 );
 }
 );
+userData = {
+"co.uk.corvelsoftware.Dotter.Dot Regular.flexPercent" = 100;
+};
 width = 2240;
 },
 {

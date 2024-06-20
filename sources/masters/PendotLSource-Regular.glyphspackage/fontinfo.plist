@@ -554,11 +554,11 @@ weightClass = 800;
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 48;
+value = 43;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 40;
+value = 35;
 },
 {
 name = co.uk.corvelsoftware.Dotter.preventOverlaps;
@@ -566,7 +566,7 @@ value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 0;
+value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.contourSource;
@@ -620,7 +620,7 @@ Dotter
 },
 {
 name = co.uk.corvelsoftware.Dotter.flexPercent;
-value = 25;
+value = 75;
 }
 );
 instanceInterpolations = {
@@ -856,7 +856,7 @@ value = 0;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 98;
+value = 90;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
@@ -917,7 +917,7 @@ value = round;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 38;
+value = 34;
 },
 {
 name = co.uk.corvelsoftware.Dotter.preventOverlaps;
@@ -939,7 +939,7 @@ Dotter
 },
 {
 name = co.uk.corvelsoftware.Dotter.flexPercent;
-value = 25;
+value = 75;
 }
 );
 instanceInterpolations = {

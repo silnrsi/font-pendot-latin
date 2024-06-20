@@ -92,6 +92,10 @@ ref = _dot;
 }
 );
 width = 830;
+},
+{
+layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
+width = 600;
 }
 );
 unicode = 41;
