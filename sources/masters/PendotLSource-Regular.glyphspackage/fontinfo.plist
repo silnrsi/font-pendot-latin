@@ -1,10 +1,19 @@
 {
-.appVersion = "3310";
+.appVersion = "3243";
 .formatVersion = 3;
+axes = (
+{
+name = "Master index";
+tag = MIND;
+}
+);
 date = "2024-04-18 10:47:08 +0000";
 familyName = "Pendot L Source";
 fontMaster = (
 {
+axesValues = (
+0
+);
 id = m01;
 metricValues = (
 {
@@ -30,6 +39,9 @@ pos = -55;
 name = Regular;
 },
 {
+axesValues = (
+999
+);
 id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
 metricValues = (
 {
@@ -54,6 +66,9 @@ pos = -500;
 name = "Pendot Preview";
 },
 {
+axesValues = (
+1
+);
 id = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
 metricValues = (
 {
@@ -80,6 +95,9 @@ name = Alt;
 );
 instances = (
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -159,6 +177,9 @@ name = "Pen ExtraLight";
 weightClass = 200;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -263,6 +284,9 @@ name = "Pen Light";
 weightClass = 300;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -366,6 +390,9 @@ m01 = 1;
 name = "Pen Regular";
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -472,6 +499,9 @@ name = "Pen Bold";
 weightClass = 700;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -551,6 +581,9 @@ name = "Pen ExtraBold";
 weightClass = 800;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -630,6 +663,9 @@ name = "Dot ExtraLight";
 weightClass = 200;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -734,6 +770,9 @@ name = "Dot Light";
 weightClass = 200;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -837,6 +876,9 @@ m01 = 1;
 name = "Dot Regular";
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.startCap;
@@ -950,6 +992,9 @@ linkStyle = "Dot Regular";
 name = "Dot Bold";
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1029,6 +1074,9 @@ name = "Dot ExtraBold";
 weightClass = 800;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1126,6 +1174,9 @@ name = "Pen ExtraLight G";
 weightClass = 200;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1223,6 +1274,9 @@ name = "Pen Light G";
 weightClass = 300;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1319,6 +1373,9 @@ m01 = 1;
 name = "Pen Regular G";
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1418,6 +1475,9 @@ name = "Pen Bold G";
 weightClass = 700;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1515,6 +1575,9 @@ name = "Pen ExtraBold G";
 weightClass = 800;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1612,6 +1675,9 @@ name = "Dot ExtraLight G";
 weightClass = 200;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1713,6 +1779,9 @@ name = "Dot Light G";
 weightClass = 300;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1809,6 +1878,9 @@ m01 = 1;
 name = "Dot Regular G";
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -1908,6 +1980,9 @@ name = "Dot Bold G";
 weightClass = 700;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
@@ -2009,6 +2084,9 @@ name = "Dot ExtraBold G";
 weightClass = 800;
 },
 {
+axesValues = (
+0
+);
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
