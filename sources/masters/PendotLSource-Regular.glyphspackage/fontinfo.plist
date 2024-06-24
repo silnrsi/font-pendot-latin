@@ -1,5 +1,5 @@
 {
-.appVersion = "3243";
+.appVersion = "3310";
 .formatVersion = 3;
 axes = (
 {
@@ -90,7 +90,8 @@ pos = -500;
 {
 }
 );
-name = Alt;
+name = DotAlt;
+visible = 1;
 }
 );
 instances = (

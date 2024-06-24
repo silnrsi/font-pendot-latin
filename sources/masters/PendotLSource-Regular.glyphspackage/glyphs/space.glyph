@@ -17,6 +17,7 @@ width = 600;
 associatedMasterId = m01;
 layerId = "FCB85BF0-DA9B-46E8-B5A7-EB4C044F4CFF";
 name = "Pendot Quick Preview";
+visible = 1;
 width = 550;
 }
 );
