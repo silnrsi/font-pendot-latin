@@ -1,5 +1,5 @@
 {
-.appVersion = "3310";
+.appVersion = "3311";
 .formatVersion = 3;
 axes = (
 {
@@ -37,6 +37,34 @@ pos = -55;
 }
 );
 name = Regular;
+},
+{
+axesValues = (
+999
+);
+iconName = Light_Extended;
+id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+metricValues = (
+{
+pos = 1700;
+},
+{
+pos = 1700;
+},
+{
+pos = 1000;
+},
+{
+},
+{
+pos = -500;
+},
+{
+},
+{
+}
+);
+name = "Pendot Preview";
 },
 {
 axesValues = (
@@ -94,34 +122,6 @@ pos = -500;
 }
 );
 name = DotAltBold;
-},
-{
-axesValues = (
-999
-);
-iconName = Light_Extended;
-id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
-metricValues = (
-{
-pos = 1700;
-},
-{
-pos = 1700;
-},
-{
-pos = 1000;
-},
-{
-},
-{
-pos = -500;
-},
-{
-},
-{
-}
-);
-name = "Pendot Preview";
 }
 );
 instances = (
