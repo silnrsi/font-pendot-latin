@@ -1,7 +1,9 @@
 {
 displayStrings = (
-"ABCDÐEFGH IJKLM
-NOPQRSTUVWXYZ",
+"ABCDÐEFGHIJKLM
+NOPQRSTUVWXYZ
+abcdefghjiklmn
+opqrstuvwxyz",
 "0123456789"
 );
 }

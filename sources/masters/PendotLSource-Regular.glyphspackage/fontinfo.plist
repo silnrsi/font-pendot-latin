@@ -93,7 +93,6 @@ pos = -500;
 }
 );
 name = DotAlt;
-visible = 1;
 },
 {
 axesValues = (
