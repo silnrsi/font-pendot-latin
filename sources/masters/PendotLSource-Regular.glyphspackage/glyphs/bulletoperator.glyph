@@ -13,6 +13,10 @@ width = 1200;
 {
 layerId = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
 width = 1200;
+},
+{
+layerId = "5BD49938-778C-46FB-8B52-6AA10854A152";
+width = 600;
 }
 );
 unicode = 8729;

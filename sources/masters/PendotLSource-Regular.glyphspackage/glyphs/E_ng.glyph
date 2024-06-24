@@ -20,6 +20,10 @@ layerId = "55F7CE33-1D2E-4FE6-953E-11214B779FE9";
 name = "Pendot Quick Preview";
 visible = 1;
 width = 1200;
+},
+{
+layerId = "5BD49938-778C-46FB-8B52-6AA10854A152";
+width = 600;
 }
 );
 unicode = 330;

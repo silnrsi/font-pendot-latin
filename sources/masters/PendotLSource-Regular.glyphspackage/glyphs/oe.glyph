@@ -19,6 +19,10 @@ associatedMasterId = m01;
 layerId = "A5154941-D37F-41A9-803E-A66FD6AA5438";
 name = "Pendot Quick Preview";
 width = 1200;
+},
+{
+layerId = "5BD49938-778C-46FB-8B52-6AA10854A152";
+width = 600;
 }
 );
 unicode = 339;
