@@ -1208,6 +1208,10 @@ nodes = (
 }
 );
 width = 1390;
+},
+{
+layerId = "5BD49938-778C-46FB-8B52-6AA10854A152";
+width = 600;
 }
 );
 unicode = 83;

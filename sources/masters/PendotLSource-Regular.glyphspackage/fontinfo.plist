@@ -40,35 +40,9 @@ name = Regular;
 },
 {
 axesValues = (
-999
-);
-id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
-metricValues = (
-{
-pos = 1700;
-},
-{
-pos = 1700;
-},
-{
-pos = 1000;
-},
-{
-},
-{
-pos = -500;
-},
-{
-},
-{
-}
-);
-name = "Pendot Preview";
-},
-{
-axesValues = (
 1
 );
+iconName = SemiCondensed;
 id = "88FD4E68-2D1A-46CE-87AD-7FBA89BDFB80";
 metricValues = (
 {
@@ -92,6 +66,62 @@ pos = -500;
 );
 name = DotAlt;
 visible = 1;
+},
+{
+axesValues = (
+2
+);
+iconName = Bold;
+id = "5BD49938-778C-46FB-8B52-6AA10854A152";
+metricValues = (
+{
+pos = 1700;
+},
+{
+pos = 1700;
+},
+{
+pos = 1000;
+},
+{
+},
+{
+pos = -500;
+},
+{
+},
+{
+}
+);
+name = DotAltBold;
+},
+{
+axesValues = (
+999
+);
+iconName = Light_Extended;
+id = "FDE4885D-BB7A-448A-91AC-7911E70BCCB6";
+metricValues = (
+{
+pos = 1700;
+},
+{
+pos = 1700;
+},
+{
+pos = 1000;
+},
+{
+},
+{
+pos = -500;
+},
+{
+},
+{
+}
+);
+name = "Pendot Preview";
 }
 );
 instances = (
