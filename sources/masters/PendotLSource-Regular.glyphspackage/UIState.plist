@@ -4,6 +4,11 @@ displayStrings = (
 NOPQRSTUVWXYZ
 abcdefghjiklmn
 opqrstuvwxyz",
-"0123456789"
+"0123456789",
+"/_c.bowlL",
+"/_c.stemR",
+"/_c.stemRA",
+"/_c.bowlR",
+"/_c.stemLD"
 );
 }
