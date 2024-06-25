@@ -1028,11 +1028,11 @@ axesValues = (
 customParameters = (
 {
 name = co.uk.corvelsoftware.Dotter.dotSize;
-value = 120;
+value = 114;
 },
 {
 name = co.uk.corvelsoftware.Dotter.dotSpacing;
-value = 60;
+value = 52;
 },
 {
 name = co.uk.corvelsoftware.Dotter.preventOverlaps;
@@ -1040,7 +1040,7 @@ value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.splitPaths;
-value = 0;
+value = 1;
 },
 {
 name = co.uk.corvelsoftware.Dotter.contourSource;
@@ -1094,7 +1094,7 @@ Dotter
 },
 {
 name = co.uk.corvelsoftware.Dotter.flexPercent;
-value = 25;
+value = 75;
 }
 );
 instanceInterpolations = {
