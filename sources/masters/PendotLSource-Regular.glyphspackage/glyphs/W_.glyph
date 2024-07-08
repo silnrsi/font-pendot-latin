@@ -1,5 +1,6 @@
 {
 glyphname = W;
+kernRight = LCapDiagW;
 layers = (
 {
 anchors = (

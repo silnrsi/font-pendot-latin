@@ -2216,6 +2216,16 @@ m01 = 1;
 name = Guidelines;
 }
 );
+kerningLTR = {
+m01 = {
+"@MMK_L_LCapDiagW" = {
+A = -140;
+};
+A = {
+V = -160;
+};
+};
+};
 metrics = (
 {
 type = ascender;
