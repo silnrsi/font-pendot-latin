@@ -37,9 +37,9 @@ locally_forced = "1";
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAlt;
 "co.uk.corvelsoftware.Dotter.Dot D1 TestA.contourSource" = DotAlt;
 "co.uk.corvelsoftware.Dotter.Dot D1 TestA.flexPercent" = 100;
+"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAlt;
 };
 width = 1810;
 },

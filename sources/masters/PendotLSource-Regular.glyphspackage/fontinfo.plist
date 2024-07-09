@@ -204,7 +204,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen D1 TestA";
-weightClass = 200;
 },
 {
 axesValues = (
@@ -311,7 +310,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen D2 TestA";
-weightClass = 300;
 },
 {
 axesValues = (
@@ -523,10 +521,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-isBold = 1;
-linkStyle = "Pen D3 TestA";
 name = "Pen D4 TestA";
-weightClass = 700;
 },
 {
 axesValues = (
@@ -608,7 +603,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen D5 TestA";
-weightClass = 800;
 },
 {
 axesValues = (
@@ -690,7 +684,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot D1 TestA";
-weightClass = 200;
 },
 {
 axesValues = (
@@ -797,7 +790,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot D2 TestA";
-weightClass = 200;
 },
 {
 axesValues = (
@@ -1017,8 +1009,6 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-isBold = 1;
-linkStyle = "Dot D3 TestA";
 name = "Dot D4 TestA";
 },
 {
@@ -1101,7 +1091,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot D5 TestA";
-weightClass = 800;
 },
 {
 axesValues = (
@@ -1201,7 +1190,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen G D1 TestA";
-weightClass = 200;
 },
 {
 axesValues = (
@@ -1301,7 +1289,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen G D2 TestA";
-weightClass = 300;
 },
 {
 axesValues = (
@@ -1499,10 +1486,7 @@ thickness = "54";
 instanceInterpolations = {
 m01 = 1;
 };
-isBold = 1;
-linkStyle = "Pen G D3 TestA";
 name = "Pen G D4 TestA";
-weightClass = 700;
 },
 {
 axesValues = (
@@ -1701,7 +1685,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot G D1 TestA";
-weightClass = 200;
 },
 {
 axesValues = (
@@ -1805,7 +1788,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot G D2 TestA";
-weightClass = 300;
 },
 {
 axesValues = (
@@ -2003,10 +1985,7 @@ thickness = "54";
 instanceInterpolations = {
 m01 = 1;
 };
-isBold = 1;
-linkStyle = "Dot G D3 TestA";
 name = "Dot G D4 TestA";
-weightClass = 700;
 },
 {
 axesValues = (
@@ -2110,7 +2089,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Dot G D5 TestA";
-weightClass = 800;
 },
 {
 axesValues = (
@@ -2212,7 +2190,7 @@ thickness = "30";
 instanceInterpolations = {
 m01 = 1;
 };
-name = Guidelines;
+name = Guidelines TestA;
 }
 );
 kerningLTR = {
