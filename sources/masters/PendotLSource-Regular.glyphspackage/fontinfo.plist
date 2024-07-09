@@ -1602,7 +1602,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Pen ExtraBold G";
-weightClass = 800;
 },
 {
 axesValues = (
