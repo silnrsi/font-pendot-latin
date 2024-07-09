@@ -203,7 +203,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen ExtraLight";
+name = "Pen D1 TestA";
 weightClass = 200;
 },
 {
@@ -310,7 +310,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen Light";
+name = "Pen D2 TestA";
 weightClass = 300;
 },
 {
@@ -417,7 +417,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen Regular";
+name = "Pen D3 TestA";
 },
 {
 axesValues = (
@@ -524,8 +524,8 @@ instanceInterpolations = {
 m01 = 1;
 };
 isBold = 1;
-linkStyle = "Pen Regular";
-name = "Pen Bold";
+linkStyle = "Pen D3 TestA";
+name = "Pen D4 TestA";
 weightClass = 700;
 },
 {
@@ -607,7 +607,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen ExtraBold";
+name = "Pen D5 TestA";
 weightClass = 800;
 },
 {
@@ -689,7 +689,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot ExtraLight";
+name = "Dot D1 TestA";
 weightClass = 200;
 },
 {
@@ -796,7 +796,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot Light";
+name = "Dot D2 TestA";
 weightClass = 200;
 },
 {
@@ -903,7 +903,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot Regular";
+name = "Dot D3 TestA";
 },
 {
 axesValues = (
@@ -1018,8 +1018,8 @@ instanceInterpolations = {
 m01 = 1;
 };
 isBold = 1;
-linkStyle = "Dot Regular";
-name = "Dot Bold";
+linkStyle = "Dot D3 TestA";
+name = "Dot D4 TestA";
 },
 {
 axesValues = (
@@ -1100,7 +1100,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot ExtraBold";
+name = "Dot D5 TestA";
 weightClass = 800;
 },
 {
@@ -1200,7 +1200,7 @@ thickness = "20";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen ExtraLight G";
+name = "Pen G D1 TestA";
 weightClass = 200;
 },
 {
@@ -1300,7 +1300,7 @@ thickness = "30";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen Light G";
+name = "Pen G D2 TestA";
 weightClass = 300;
 },
 {
@@ -1400,7 +1400,7 @@ thickness = "40";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen Regular G";
+name = "Pen G D3 TestA";
 },
 {
 axesValues = (
@@ -1500,8 +1500,8 @@ instanceInterpolations = {
 m01 = 1;
 };
 isBold = 1;
-linkStyle = "Pen Regular G";
-name = "Pen Bold G";
+linkStyle = "Pen G D3 TestA";
+name = "Pen G D4 TestA";
 weightClass = 700;
 },
 {
@@ -1601,7 +1601,7 @@ thickness = "64";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen ExtraBold G";
+name = "Pen G D5 TestA";
 },
 {
 axesValues = (
@@ -1700,7 +1700,7 @@ thickness = "20";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot ExtraLight G";
+name = "Dot G D1 TestA";
 weightClass = 200;
 },
 {
@@ -1804,7 +1804,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot Light G";
+name = "Dot G D2 TestA";
 weightClass = 300;
 },
 {
@@ -1904,7 +1904,7 @@ thickness = "40";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot Regular G";
+name = "Dot G D3 TestA";
 },
 {
 axesValues = (
@@ -2004,8 +2004,8 @@ instanceInterpolations = {
 m01 = 1;
 };
 isBold = 1;
-linkStyle = "Dot Regular G";
-name = "Dot Bold G";
+linkStyle = "Dot G D3 TestA";
+name = "Dot G D4 TestA";
 weightClass = 700;
 },
 {
@@ -2109,7 +2109,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot ExtraBold G";
+name = "Dot G D5 TestA";
 weightClass = 800;
 },
 {

@@ -56,7 +56,7 @@ ref = _c.stemLA;
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot ExtraLight.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D1 TestA.contourSource" = DotAlt;
 };
 width = 1410;
 },

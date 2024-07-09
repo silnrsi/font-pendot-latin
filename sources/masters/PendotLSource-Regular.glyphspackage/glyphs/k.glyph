@@ -27,9 +27,9 @@ nodes = (
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot ExtraBold.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot Light.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot Regular.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D2 TestA.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D3 TestA.contourSource" = DotAlt;
 };
 width = 1020;
 },
@@ -142,7 +142,7 @@ ref = _dot;
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot Regular.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D3 TestA.contourSource" = DotAlt;
 };
 width = 1020;
 },
@@ -172,7 +172,7 @@ nodes = (
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot Regular.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot D3 TestA.contourSource" = DotAlt;
 };
 width = 1020;
 },

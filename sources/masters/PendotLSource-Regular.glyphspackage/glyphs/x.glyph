@@ -30,8 +30,8 @@ nodes = (
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot ExtraBold.contourSource" = DotAltBold;
-"co.uk.corvelsoftware.Dotter.Dot Regular.flexPercent" = 60;
+"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAltBold;
+"co.uk.corvelsoftware.Dotter.Dot D3 TestA.flexPercent" = 60;
 };
 width = 1090;
 },

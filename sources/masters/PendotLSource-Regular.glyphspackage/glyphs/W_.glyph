@@ -47,9 +47,9 @@ forced = 1;
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot Bold.contourSource" = DotAltBold;
-"co.uk.corvelsoftware.Dotter.Dot ExtraBold.contourSource" = DotAltBold;
-"co.uk.corvelsoftware.Dotter.Dot Regular.flexPercent" = 100;
+"co.uk.corvelsoftware.Dotter.Dot D4 TestA.contourSource" = DotAltBold;
+"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAltBold;
+"co.uk.corvelsoftware.Dotter.Dot D3 TestA.flexPercent" = 100;
 };
 width = 2240;
 },
