@@ -102,7 +102,6 @@ def read_ufo(filename):
             codepoint = rev_cmap[base_glyph_name]
         else:
             codepoint = -1
-        # data[glyph.name] = (codepoint, glyph.name, '(UFO)')
         data[glyph.name] = codepoint
 
     return data
@@ -121,7 +120,6 @@ def read_xml(filename):
                 production = record.attrib['production']
             glyph = {}
             glyph['name'] = name
-            glyph['production'] = production
             glyph['usv'] = usv
             data_codepoint[codepoint] = glyph
             data_production[production] = glyph
