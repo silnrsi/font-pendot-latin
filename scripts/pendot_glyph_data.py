@@ -14,21 +14,30 @@ def main():
     parser.add_argument('pendot', help='Pendot glyphs_data.csv file')
     args = parser.parse_args()
 
-    ufo_data = read_ufo(args.ufo)
+    base_data, ufo_data = read_ufo(args.ufo)
     gd_cdga, fieldnames = read_csv(args.cdga)
     glyphsapp_codepoint, glyphsapp_production = read_xml(args.glyphsapp)
     gd_pendot = []
+    used_glyphsapp_names = []
     for glyph in gd_cdga:
-        temp_usv = glyphsapp_name = ''
+        ufo_codepoint = temp_usv = glyphsapp_name = ''
         to_review = []
 
-        # find codepoint to be used for looking up character information
         glyph_name = glyph['glyph_name']
+
+        # grab unicode for glyph from ufo
         if glyph_name in ufo_data:
-            base_codepoint = ufo_data[glyph_name]
+            if ufo_data[glyph_name] != -1:
+                ufo_codepoint = str.upper(hex(ufo_data[glyph_name]))[2:7].zfill(4)
+        else:
+            to_review.append('NotInUfo')
+
+        # find codepoint to be used for looking up character information
+        if glyph_name in base_data:
+            base_codepoint = base_data[glyph_name]
         else:
             base_codepoint = -1
-            to_review.append('NotInUfo')
+            #to_review.append('NotInUfo')
         base_glyph_name, dot_glyph_name, suffix_glyph_name = glyph_name.partition('.')
 
         # find production name to be used for looking up character information
@@ -58,11 +67,25 @@ def main():
             glyphsapp_name = glyph_name
         else:
             to_review.append('NotInGlyphsApp')
-        glyph['temp_usv'] = temp_usv
+
+        # check for mismatched USVs
+        if temp_usv != "" and temp_usv != ufo_codepoint:
+            print("usv mismatch", glyph_name, "temp_usv", temp_usv, "UFO", ufo_codepoint)
+
+        # test for missing or duplicate glyphsapp_names        
+        if glyphsapp_name == "":
+            pass
+            #print("%s has no glyphsapp_name" % glyph_name)
+        elif glyphsapp_name in used_glyphsapp_names:
+            print("Name %s already in use" % glyphsapp_name)
+        else:
+            used_glyphsapp_names.append(glyphsapp_name)
+
+        glyph['usv'] = ufo_codepoint
         glyph['glyphsapp_name'] = glyphsapp_name
         glyph['to_review'] = ' '.join(to_review)
         gd_pendot.append(glyph)
-    fieldnames.extend(['temp_usv', 'glyphsapp_name', 'to_review'])
+    fieldnames.extend(['usv', 'glyphsapp_name', 'to_review'])
     write_csv(gd_pendot, fieldnames, args.pendot)
 
 
@@ -85,7 +108,8 @@ def write_csv(gd, fieldnames, filename):
 
 
 def read_ufo(filename):
-    data = dict()
+    base_data = dict()
+    ufo_data = dict()
     rev_cmap = dict()
     font = fontparts.OpenFont(filename)
 
@@ -98,13 +122,20 @@ def read_ufo(filename):
     # read data from the UFO
     for glyph in font:
         base_glyph_name, dot, suffix = glyph.name.partition('.')
-        if base_glyph_name in rev_cmap:
-            codepoint = rev_cmap[base_glyph_name]
-        else:
-            codepoint = -1
-        data[glyph.name] = codepoint
 
-    return data
+        if base_glyph_name in rev_cmap:
+            basepoint = rev_cmap[base_glyph_name]
+        else:
+            basepoint = -1
+        base_data[glyph.name] = basepoint
+
+        if glyph.unicode:
+            ufopoint = glyph.unicode
+        else:
+            ufopoint = -1
+        ufo_data[glyph.name] = ufopoint
+
+    return base_data, ufo_data
 
 
 def read_xml(filename):
