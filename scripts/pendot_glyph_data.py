@@ -12,10 +12,12 @@ def main():
     parser.add_argument('ufo', help='CDGA UFO')
     parser.add_argument('cdga', help='CDGA glyphs_data.csv file')
     parser.add_argument('pendot', help='Pendot glyphs_data.csv file')
+    parser.add_argument('custom', help='Custom name mapping csv file')
     args = parser.parse_args()
 
     base_data, ufo_data = read_ufo(args.ufo)
     gd_cdga, fieldnames = read_csv(args.cdga)
+    custom_names = read_csv2dict(args.custom)
     glyphsapp_codepoint, glyphsapp_production = read_xml(args.glyphsapp)
     gd_pendot = []
     used_glyphsapp_names = []
@@ -65,8 +67,12 @@ def main():
         elif glyph_name in ('.notdef', '.null', 'nonmarkingreturn'):
             # first three glyph names are special
             glyphsapp_name = glyph_name
+        elif glyph_name in custom_names:
+            glyphsapp_name = custom_names[glyph_name]
+            to_review.append('CustomName')
+            # print(glyph_name, glyphsapp_name)
         else:
-            to_review.append('NotInGlyphsApp')
+            to_review.append('NotInGAorCN')
 
         # check for mismatched USVs
         if temp_usv != "" and temp_usv != ufo_codepoint:
@@ -90,13 +96,23 @@ def main():
 
 
 def read_csv(filename):
-    gd = []
+    data = []
     with open(filename, newline='') as csv_file:
         reader = csv.DictReader(csv_file)
         fieldnames = reader.fieldnames
         for row in reader:
-            gd.append(row)
-    return gd, fieldnames
+            data.append(row)
+    return data, fieldnames
+
+
+def read_csv2dict(filename):
+    namedict = {}
+    with open(filename, newline='') as csv_file:
+        reader = csv.DictReader(csv_file)
+        for row in reader:
+            namedict[row['silname']] = row['newname']
+    # print(namedict)
+    return namedict
 
 
 def write_csv(gd, fieldnames, filename):
