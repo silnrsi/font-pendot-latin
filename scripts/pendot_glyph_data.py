@@ -64,24 +64,28 @@ def main():
             if suffix_production:
                 temp_usv = ''
                 glyphsapp_name = f'{glyphsapp_name}{dot_production}{suffix_production}'
+        elif base_glyph_name in custom_names:
+            glyphsapp_name = custom_names[base_glyph_name]
+            if suffix_glyph_name:
+                temp_usv = ''
+                glyphsapp_name = f'{glyphsapp_name}{dot_glyph_name}{suffix_glyph_name}'            
+            to_review.append('CustomName')
+            # print(glyph_name, glyphsapp_name)
+        elif glyph_name[len(glyph_name)-3:] == "Dep":
+            to_review.append('Deprecated')
         elif glyph_name in ('.notdef', '.null', 'nonmarkingreturn'):
             # first three glyph names are special
             glyphsapp_name = glyph_name
-        elif glyph_name in custom_names:
-            glyphsapp_name = custom_names[glyph_name]
-            to_review.append('CustomName')
-            # print(glyph_name, glyphsapp_name)
         else:
             to_review.append('NotInGAorCN')
 
         # check for mismatched USVs
-        if temp_usv != "" and temp_usv != ufo_codepoint:
-            print("usv mismatch", glyph_name, "temp_usv", temp_usv, "UFO", ufo_codepoint)
+        # if temp_usv != "" and temp_usv != ufo_codepoint:
+            # print("usv mismatch", glyph_name, "temp_usv", temp_usv, "UFO", ufo_codepoint)
 
         # test for missing or duplicate glyphsapp_names        
         if glyphsapp_name == "":
-            pass
-            #print("%s has no glyphsapp_name" % glyph_name)
+            print("%s has no glyphsapp_name" % glyph_name)
         elif glyphsapp_name in used_glyphsapp_names:
             print("Name %s already in use" % glyphsapp_name)
         else:
