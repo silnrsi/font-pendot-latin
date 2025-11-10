@@ -44,9 +44,9 @@ nodes = (
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot D2 TestA.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot D4 TestA.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAltBold;
+"co.uk.corvelsoftware.Dotter.Dot 2 Test B.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 4 Test B.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 5 Test B.contourSource" = DotAltBold;
 };
 width = 960;
 },

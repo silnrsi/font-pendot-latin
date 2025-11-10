@@ -203,7 +203,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen D1 TestA";
+name = "Pen 1 Test B";
 },
 {
 axesValues = (
@@ -309,7 +309,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen D2 TestA";
+name = "Pen 2 Test B";
 },
 {
 axesValues = (
@@ -415,7 +415,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen D3 TestA";
+name = "Pen 3 Test B";
 },
 {
 axesValues = (
@@ -521,7 +521,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen D4 TestA";
+name = "Pen 4 Test B";
 },
 {
 axesValues = (
@@ -602,7 +602,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen D5 TestA";
+name = "Pen 5 Test B";
 },
 {
 axesValues = (
@@ -683,7 +683,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot D1 TestA";
+name = "Dot 1 Test B";
 },
 {
 axesValues = (
@@ -789,7 +789,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot D2 TestA";
+name = "Dot 2 Test B";
 },
 {
 axesValues = (
@@ -895,7 +895,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot D3 TestA";
+name = "Dot 3 Test B";
 },
 {
 axesValues = (
@@ -1009,7 +1009,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot D4 TestA";
+name = "Dot 4 Test B";
 },
 {
 axesValues = (
@@ -1090,7 +1090,7 @@ value = 75;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot D5 TestA";
+name = "Dot 5 Test B";
 },
 {
 axesValues = (
@@ -1189,7 +1189,7 @@ thickness = "20";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen G D1 TestA";
+name = "Pen Line 1 Test B";
 },
 {
 axesValues = (
@@ -1288,7 +1288,7 @@ thickness = "30";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen G D2 TestA";
+name = "Pen Line 2 Test B";
 },
 {
 axesValues = (
@@ -1387,7 +1387,7 @@ thickness = "40";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen G D3 TestA";
+name = "Pen Line 3 Test B";
 },
 {
 axesValues = (
@@ -1486,7 +1486,7 @@ thickness = "54";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen G D4 TestA";
+name = "Pen Line 4 Test B";
 },
 {
 axesValues = (
@@ -1585,7 +1585,7 @@ thickness = "64";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Pen G D5 TestA";
+name = "Pen Line 5 Test B";
 },
 {
 axesValues = (
@@ -1684,7 +1684,7 @@ thickness = "20";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot G D1 TestA";
+name = "Dot Line 1 Test B";
 },
 {
 axesValues = (
@@ -1787,7 +1787,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot G D2 TestA";
+name = "Dot Line 2 Test B";
 },
 {
 axesValues = (
@@ -1886,7 +1886,7 @@ thickness = "40";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot G D3 TestA";
+name = "Dot Line 3 Test B";
 },
 {
 axesValues = (
@@ -1985,7 +1985,7 @@ thickness = "54";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot G D4 TestA";
+name = "Dot Line 4 Test B";
 },
 {
 axesValues = (
@@ -2088,7 +2088,7 @@ value = 25;
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Dot G D5 TestA";
+name = "Dot Line 5 Test B";
 },
 {
 axesValues = (
@@ -2190,7 +2190,7 @@ thickness = "30";
 instanceInterpolations = {
 m01 = 1;
 };
-name = "Guidelines TestA";
+name = "Line 1 Test B";
 }
 );
 kerningLTR = {

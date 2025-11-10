@@ -27,10 +27,10 @@ ref = _c.stemLA;
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot D1 TestA.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot D2 TestA.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot D3 TestA.contourSource" = DotAlt;
-"co.uk.corvelsoftware.Dotter.Dot D5 TestA.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 1 Test B.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 2 Test B.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 3 Test B.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 5 Test B.contourSource" = DotAlt;
 };
 width = 1320;
 },
@@ -194,7 +194,7 @@ ref = _c.stemLA;
 }
 );
 userData = {
-"co.uk.corvelsoftware.Dotter.Dot D3 TestA.contourSource" = DotAlt;
+"co.uk.corvelsoftware.Dotter.Dot 3 Test B.contourSource" = DotAlt;
 };
 width = 1320;
 },
