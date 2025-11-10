@@ -1,4 +1,4 @@
-pendot @ git+https://github.com/simoncozens/Dotter/
+pendot @ git+https://github.com/simoncozens/Pendot/
 glyphsLib>=6.6.1
 gftools>=0.9.53
 fontTools>=4.46.0
