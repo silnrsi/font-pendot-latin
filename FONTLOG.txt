@@ -1,12 +1,12 @@
 -----
-FONTLOG for the Pendot L fonts
+FONTLOG for the Andika Pendot fonts
 
-This file provides detailed information on the Pendot L Font Software.
-This information should be distributed along with the Pendot L fonts and any derivative works.
+This file provides detailed information on the Andika Pendot Font Software.
+This information should be distributed along with the Andika Pendot fonts and any derivative works.
 
 Basic Font Information
 
-Pendot L is a prototype font for writing education in the Latin script. It is incomplete and will change considerably. Please do not use this as a source of derivatives. A much more useful font will eventually be released that will be a better source. Thank you!
+Andika Pendot is a prototype set of fonts for writing education in the Latin script. It is incomplete and will change considerably. Please do not use this as a source of derivatives. A much more useful font will eventually be released that will be a better source. Thank you!
 
 ChangeLog
 
@@ -24,6 +24,6 @@ E: https://software.sil.org/about/contact/
 W: https://software.sil.org/wstech/
 D: Designers and developers
 
-SIL International (https://www.sil.org/) serves language communities worldwide,
+SIL Global (https://www.sil.org/) serves language communities worldwide,
 building their capacity for sustainable language development by means of
 research, translation, training and materials development.
