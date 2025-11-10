@@ -1168,20 +1168,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "20";
+height = "1708";
+thickness = "24";
 },
 {
-height = "x-Height";
-thickness = "20";
+height = "1008";
+thickness = "24";
 },
 {
-height = Baseline;
-thickness = "40";
+height = "-44";
+thickness = "36";
 },
 {
-height = Descender;
-thickness = "20";
+height = "-532";
+thickness = "24";
 }
 );
 },
@@ -1271,20 +1271,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "30";
+height = "1710";
+thickness = "32";
 },
 {
-height = "x-Height";
-thickness = "30";
+height = "1008";
+thickness = "32";
 },
 {
-height = Baseline;
-thickness = "48";
+height = "-54";
+thickness = "44";
 },
 {
-height = Descender;
-thickness = "30";
+height = "-542";
+thickness = "32";
 }
 );
 },
@@ -1374,19 +1374,19 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
+height = "1713";
 thickness = "40";
 },
 {
-height = "x-Height";
+height = "1013";
 thickness = "40";
 },
 {
-height = BaselineR;
-thickness = "64";
+height = "-67";
+thickness = "54";
 },
 {
-height = Descender;
+height = "-553";
 thickness = "40";
 }
 );
@@ -1477,20 +1477,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "54";
+height = "1715";
+thickness = "48";
 },
 {
-height = "x-Height";
-thickness = "54";
+height = "1015";
+thickness = "48";
 },
 {
-height = Baseline;
-thickness = "80";
+height = "-81";
+thickness = "66";
 },
 {
-height = Descender;
-thickness = "54";
+height = "-563";
+thickness = "48";
 }
 );
 },
@@ -1580,20 +1580,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "64";
+height = "1718";
+thickness = "56";
 },
 {
-height = "x-Height";
-thickness = "64";
+height = "1018";
+thickness = "56";
 },
 {
-height = Baseline;
-thickness = "92";
+height = "-96";
+thickness = "78";
 },
 {
-height = Descender;
-thickness = "64";
+height = "-574";
+thickness = "56";
 }
 );
 },
@@ -1683,20 +1683,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "20";
+height = "1708";
+thickness = "24";
 },
 {
-height = "x-Height";
-thickness = "20";
+height = "1008";
+thickness = "24";
 },
 {
-height = Baseline;
-thickness = "40";
+height = "-44";
+thickness = "36";
 },
 {
-height = Descender;
-thickness = "20";
+height = "-532";
+thickness = "24";
 }
 );
 },
@@ -1786,20 +1786,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "30";
+height = "1710";
+thickness = "32";
 },
 {
-height = "x-Height";
-thickness = "30";
+height = "1010";
+thickness = "44";
 },
 {
-height = Baseline;
-thickness = "48";
+height = "-54";
+thickness = "32";
 },
 {
-height = Descender;
-thickness = "30";
+height = "-542";
+thickness = "32";
 }
 );
 },
@@ -1889,19 +1889,19 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
+height = "1713";
 thickness = "40";
 },
 {
-height = "x-Height";
+height = "1013";
 thickness = "40";
 },
 {
-height = Baseline;
-thickness = "64";
+height = "-67";
+thickness = "54";
 },
 {
-height = Descender;
+height = "-553";
 thickness = "40";
 }
 );
@@ -1992,20 +1992,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "54";
+height = "1715";
+thickness = "48";
 },
 {
-height = "x-Height";
-thickness = "54";
+height = "1015";
+thickness = "48";
 },
 {
-height = Baseline;
-thickness = "80";
+height = "-81";
+thickness = "66";
 },
 {
-height = Descender;
-thickness = "54";
+height = "-563";
+thickness = "48";
 }
 );
 },
@@ -2095,20 +2095,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "64";
+height = "1718";
+thickness = "56";
 },
 {
-height = "x-Height";
-thickness = "64";
+height = "1018";
+thickness = "56";
 },
 {
-height = Baseline;
-thickness = "92";
+height = "-96";
+thickness = "78";
 },
 {
-height = Descender;
-thickness = "64";
+height = "-574";
+thickness = "56";
 }
 );
 },
@@ -2201,20 +2201,20 @@ Guidelines
 name = co.uk.corvelsoftware.Dotter.guidelines;
 value = (
 {
-height = Ascender;
-thickness = "30";
+height = "1708";
+thickness = "24";
 },
 {
-height = "x-Height";
-thickness = "30";
+height = "1008";
+thickness = "24";
 },
 {
-height = Baseline;
-thickness = "48";
+height = "-44";
+thickness = "36";
 },
 {
-height = Descender;
-thickness = "30";
+height = "-532";
+thickness = "24";
 }
 );
 }
